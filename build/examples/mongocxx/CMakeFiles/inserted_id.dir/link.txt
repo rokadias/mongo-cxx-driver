@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/inserted_id.dir/inserted_id.cpp.o -o inserted_id  -Wl,-rpath,/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/mongocxx:/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx ../../src/mongocxx/libmongocxx.so.3.10.1 ../../src/bsoncxx/libbsoncxx.so.3.10.1

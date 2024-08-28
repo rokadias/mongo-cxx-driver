@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/builder_stream_customization.dir/builder_stream_customization.cpp.o -o builder_stream_customization  -Wl,-rpath,/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx ../../src/bsoncxx/libbsoncxx.so.3.10.1
