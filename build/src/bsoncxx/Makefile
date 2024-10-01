@@ -185,12 +185,27 @@ bsoncxx_shared/fast:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build
 .PHONY : bsoncxx_shared/fast
 
+# Convenience name for target.
+src/bsoncxx/CMakeFiles/bsoncxx_static.dir/rule:
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/bsoncxx/CMakeFiles/bsoncxx_static.dir/rule
+.PHONY : src/bsoncxx/CMakeFiles/bsoncxx_static.dir/rule
+
+# Convenience name for target.
+bsoncxx_static: src/bsoncxx/CMakeFiles/bsoncxx_static.dir/rule
+.PHONY : bsoncxx_static
+
+# fast build rule for target.
+bsoncxx_static/fast:
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build
+.PHONY : bsoncxx_static/fast
+
 lib/bsoncxx/v_noabi/bsoncxx/array/element.o: lib/bsoncxx/v_noabi/bsoncxx/array/element.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/array/element.o
 
 # target to build an object file
 lib/bsoncxx/v_noabi/bsoncxx/array/element.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/array/element.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/array/element.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/array/element.cpp.o
 
 lib/bsoncxx/v_noabi/bsoncxx/array/element.i: lib/bsoncxx/v_noabi/bsoncxx/array/element.cpp.i
@@ -199,6 +214,7 @@ lib/bsoncxx/v_noabi/bsoncxx/array/element.i: lib/bsoncxx/v_noabi/bsoncxx/array/e
 # target to preprocess a source file
 lib/bsoncxx/v_noabi/bsoncxx/array/element.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/array/element.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/array/element.cpp.i
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/array/element.cpp.i
 
 lib/bsoncxx/v_noabi/bsoncxx/array/element.s: lib/bsoncxx/v_noabi/bsoncxx/array/element.cpp.s
@@ -207,6 +223,7 @@ lib/bsoncxx/v_noabi/bsoncxx/array/element.s: lib/bsoncxx/v_noabi/bsoncxx/array/e
 # target to generate assembly for a file
 lib/bsoncxx/v_noabi/bsoncxx/array/element.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/array/element.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/array/element.cpp.s
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/array/element.cpp.s
 
 lib/bsoncxx/v_noabi/bsoncxx/array/value.o: lib/bsoncxx/v_noabi/bsoncxx/array/value.cpp.o
@@ -215,6 +232,7 @@ lib/bsoncxx/v_noabi/bsoncxx/array/value.o: lib/bsoncxx/v_noabi/bsoncxx/array/val
 # target to build an object file
 lib/bsoncxx/v_noabi/bsoncxx/array/value.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/array/value.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/array/value.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/array/value.cpp.o
 
 lib/bsoncxx/v_noabi/bsoncxx/array/value.i: lib/bsoncxx/v_noabi/bsoncxx/array/value.cpp.i
@@ -223,6 +241,7 @@ lib/bsoncxx/v_noabi/bsoncxx/array/value.i: lib/bsoncxx/v_noabi/bsoncxx/array/val
 # target to preprocess a source file
 lib/bsoncxx/v_noabi/bsoncxx/array/value.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/array/value.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/array/value.cpp.i
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/array/value.cpp.i
 
 lib/bsoncxx/v_noabi/bsoncxx/array/value.s: lib/bsoncxx/v_noabi/bsoncxx/array/value.cpp.s
@@ -231,6 +250,7 @@ lib/bsoncxx/v_noabi/bsoncxx/array/value.s: lib/bsoncxx/v_noabi/bsoncxx/array/val
 # target to generate assembly for a file
 lib/bsoncxx/v_noabi/bsoncxx/array/value.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/array/value.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/array/value.cpp.s
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/array/value.cpp.s
 
 lib/bsoncxx/v_noabi/bsoncxx/array/view.o: lib/bsoncxx/v_noabi/bsoncxx/array/view.cpp.o
@@ -239,6 +259,7 @@ lib/bsoncxx/v_noabi/bsoncxx/array/view.o: lib/bsoncxx/v_noabi/bsoncxx/array/view
 # target to build an object file
 lib/bsoncxx/v_noabi/bsoncxx/array/view.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/array/view.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/array/view.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/array/view.cpp.o
 
 lib/bsoncxx/v_noabi/bsoncxx/array/view.i: lib/bsoncxx/v_noabi/bsoncxx/array/view.cpp.i
@@ -247,6 +268,7 @@ lib/bsoncxx/v_noabi/bsoncxx/array/view.i: lib/bsoncxx/v_noabi/bsoncxx/array/view
 # target to preprocess a source file
 lib/bsoncxx/v_noabi/bsoncxx/array/view.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/array/view.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/array/view.cpp.i
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/array/view.cpp.i
 
 lib/bsoncxx/v_noabi/bsoncxx/array/view.s: lib/bsoncxx/v_noabi/bsoncxx/array/view.cpp.s
@@ -255,6 +277,7 @@ lib/bsoncxx/v_noabi/bsoncxx/array/view.s: lib/bsoncxx/v_noabi/bsoncxx/array/view
 # target to generate assembly for a file
 lib/bsoncxx/v_noabi/bsoncxx/array/view.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/array/view.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/array/view.cpp.s
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/array/view.cpp.s
 
 lib/bsoncxx/v_noabi/bsoncxx/builder/core.o: lib/bsoncxx/v_noabi/bsoncxx/builder/core.cpp.o
@@ -263,6 +286,7 @@ lib/bsoncxx/v_noabi/bsoncxx/builder/core.o: lib/bsoncxx/v_noabi/bsoncxx/builder/
 # target to build an object file
 lib/bsoncxx/v_noabi/bsoncxx/builder/core.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/builder/core.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/builder/core.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/builder/core.cpp.o
 
 lib/bsoncxx/v_noabi/bsoncxx/builder/core.i: lib/bsoncxx/v_noabi/bsoncxx/builder/core.cpp.i
@@ -271,6 +295,7 @@ lib/bsoncxx/v_noabi/bsoncxx/builder/core.i: lib/bsoncxx/v_noabi/bsoncxx/builder/
 # target to preprocess a source file
 lib/bsoncxx/v_noabi/bsoncxx/builder/core.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/builder/core.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/builder/core.cpp.i
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/builder/core.cpp.i
 
 lib/bsoncxx/v_noabi/bsoncxx/builder/core.s: lib/bsoncxx/v_noabi/bsoncxx/builder/core.cpp.s
@@ -279,6 +304,7 @@ lib/bsoncxx/v_noabi/bsoncxx/builder/core.s: lib/bsoncxx/v_noabi/bsoncxx/builder/
 # target to generate assembly for a file
 lib/bsoncxx/v_noabi/bsoncxx/builder/core.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/builder/core.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/builder/core.cpp.s
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/builder/core.cpp.s
 
 lib/bsoncxx/v_noabi/bsoncxx/decimal128.o: lib/bsoncxx/v_noabi/bsoncxx/decimal128.cpp.o
@@ -287,6 +313,7 @@ lib/bsoncxx/v_noabi/bsoncxx/decimal128.o: lib/bsoncxx/v_noabi/bsoncxx/decimal128
 # target to build an object file
 lib/bsoncxx/v_noabi/bsoncxx/decimal128.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/decimal128.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/decimal128.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/decimal128.cpp.o
 
 lib/bsoncxx/v_noabi/bsoncxx/decimal128.i: lib/bsoncxx/v_noabi/bsoncxx/decimal128.cpp.i
@@ -295,6 +322,7 @@ lib/bsoncxx/v_noabi/bsoncxx/decimal128.i: lib/bsoncxx/v_noabi/bsoncxx/decimal128
 # target to preprocess a source file
 lib/bsoncxx/v_noabi/bsoncxx/decimal128.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/decimal128.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/decimal128.cpp.i
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/decimal128.cpp.i
 
 lib/bsoncxx/v_noabi/bsoncxx/decimal128.s: lib/bsoncxx/v_noabi/bsoncxx/decimal128.cpp.s
@@ -303,6 +331,7 @@ lib/bsoncxx/v_noabi/bsoncxx/decimal128.s: lib/bsoncxx/v_noabi/bsoncxx/decimal128
 # target to generate assembly for a file
 lib/bsoncxx/v_noabi/bsoncxx/decimal128.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/decimal128.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/decimal128.cpp.s
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/decimal128.cpp.s
 
 lib/bsoncxx/v_noabi/bsoncxx/document/element.o: lib/bsoncxx/v_noabi/bsoncxx/document/element.cpp.o
@@ -311,6 +340,7 @@ lib/bsoncxx/v_noabi/bsoncxx/document/element.o: lib/bsoncxx/v_noabi/bsoncxx/docu
 # target to build an object file
 lib/bsoncxx/v_noabi/bsoncxx/document/element.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/document/element.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/document/element.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/document/element.cpp.o
 
 lib/bsoncxx/v_noabi/bsoncxx/document/element.i: lib/bsoncxx/v_noabi/bsoncxx/document/element.cpp.i
@@ -319,6 +349,7 @@ lib/bsoncxx/v_noabi/bsoncxx/document/element.i: lib/bsoncxx/v_noabi/bsoncxx/docu
 # target to preprocess a source file
 lib/bsoncxx/v_noabi/bsoncxx/document/element.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/document/element.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/document/element.cpp.i
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/document/element.cpp.i
 
 lib/bsoncxx/v_noabi/bsoncxx/document/element.s: lib/bsoncxx/v_noabi/bsoncxx/document/element.cpp.s
@@ -327,6 +358,7 @@ lib/bsoncxx/v_noabi/bsoncxx/document/element.s: lib/bsoncxx/v_noabi/bsoncxx/docu
 # target to generate assembly for a file
 lib/bsoncxx/v_noabi/bsoncxx/document/element.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/document/element.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/document/element.cpp.s
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/document/element.cpp.s
 
 lib/bsoncxx/v_noabi/bsoncxx/document/value.o: lib/bsoncxx/v_noabi/bsoncxx/document/value.cpp.o
@@ -335,6 +367,7 @@ lib/bsoncxx/v_noabi/bsoncxx/document/value.o: lib/bsoncxx/v_noabi/bsoncxx/docume
 # target to build an object file
 lib/bsoncxx/v_noabi/bsoncxx/document/value.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/document/value.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/document/value.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/document/value.cpp.o
 
 lib/bsoncxx/v_noabi/bsoncxx/document/value.i: lib/bsoncxx/v_noabi/bsoncxx/document/value.cpp.i
@@ -343,6 +376,7 @@ lib/bsoncxx/v_noabi/bsoncxx/document/value.i: lib/bsoncxx/v_noabi/bsoncxx/docume
 # target to preprocess a source file
 lib/bsoncxx/v_noabi/bsoncxx/document/value.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/document/value.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/document/value.cpp.i
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/document/value.cpp.i
 
 lib/bsoncxx/v_noabi/bsoncxx/document/value.s: lib/bsoncxx/v_noabi/bsoncxx/document/value.cpp.s
@@ -351,6 +385,7 @@ lib/bsoncxx/v_noabi/bsoncxx/document/value.s: lib/bsoncxx/v_noabi/bsoncxx/docume
 # target to generate assembly for a file
 lib/bsoncxx/v_noabi/bsoncxx/document/value.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/document/value.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/document/value.cpp.s
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/document/value.cpp.s
 
 lib/bsoncxx/v_noabi/bsoncxx/document/view.o: lib/bsoncxx/v_noabi/bsoncxx/document/view.cpp.o
@@ -359,6 +394,7 @@ lib/bsoncxx/v_noabi/bsoncxx/document/view.o: lib/bsoncxx/v_noabi/bsoncxx/documen
 # target to build an object file
 lib/bsoncxx/v_noabi/bsoncxx/document/view.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/document/view.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/document/view.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/document/view.cpp.o
 
 lib/bsoncxx/v_noabi/bsoncxx/document/view.i: lib/bsoncxx/v_noabi/bsoncxx/document/view.cpp.i
@@ -367,6 +403,7 @@ lib/bsoncxx/v_noabi/bsoncxx/document/view.i: lib/bsoncxx/v_noabi/bsoncxx/documen
 # target to preprocess a source file
 lib/bsoncxx/v_noabi/bsoncxx/document/view.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/document/view.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/document/view.cpp.i
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/document/view.cpp.i
 
 lib/bsoncxx/v_noabi/bsoncxx/document/view.s: lib/bsoncxx/v_noabi/bsoncxx/document/view.cpp.s
@@ -375,6 +412,7 @@ lib/bsoncxx/v_noabi/bsoncxx/document/view.s: lib/bsoncxx/v_noabi/bsoncxx/documen
 # target to generate assembly for a file
 lib/bsoncxx/v_noabi/bsoncxx/document/view.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/document/view.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/document/view.cpp.s
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/document/view.cpp.s
 
 lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.o: lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.cpp.o
@@ -383,6 +421,7 @@ lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.o: lib/bsoncxx/v_noabi/bsoncxx/
 # target to build an object file
 lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.cpp.o
 
 lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.i: lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.cpp.i
@@ -391,6 +430,7 @@ lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.i: lib/bsoncxx/v_noabi/bsoncxx/
 # target to preprocess a source file
 lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.cpp.i
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.cpp.i
 
 lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.s: lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.cpp.s
@@ -399,6 +439,7 @@ lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.s: lib/bsoncxx/v_noabi/bsoncxx/
 # target to generate assembly for a file
 lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.cpp.s
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/exception/error_code.cpp.s
 
 lib/bsoncxx/v_noabi/bsoncxx/json.o: lib/bsoncxx/v_noabi/bsoncxx/json.cpp.o
@@ -407,6 +448,7 @@ lib/bsoncxx/v_noabi/bsoncxx/json.o: lib/bsoncxx/v_noabi/bsoncxx/json.cpp.o
 # target to build an object file
 lib/bsoncxx/v_noabi/bsoncxx/json.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/json.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/json.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/json.cpp.o
 
 lib/bsoncxx/v_noabi/bsoncxx/json.i: lib/bsoncxx/v_noabi/bsoncxx/json.cpp.i
@@ -415,6 +457,7 @@ lib/bsoncxx/v_noabi/bsoncxx/json.i: lib/bsoncxx/v_noabi/bsoncxx/json.cpp.i
 # target to preprocess a source file
 lib/bsoncxx/v_noabi/bsoncxx/json.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/json.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/json.cpp.i
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/json.cpp.i
 
 lib/bsoncxx/v_noabi/bsoncxx/json.s: lib/bsoncxx/v_noabi/bsoncxx/json.cpp.s
@@ -423,6 +466,7 @@ lib/bsoncxx/v_noabi/bsoncxx/json.s: lib/bsoncxx/v_noabi/bsoncxx/json.cpp.s
 # target to generate assembly for a file
 lib/bsoncxx/v_noabi/bsoncxx/json.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/json.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/json.cpp.s
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/json.cpp.s
 
 lib/bsoncxx/v_noabi/bsoncxx/oid.o: lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.o
@@ -431,6 +475,7 @@ lib/bsoncxx/v_noabi/bsoncxx/oid.o: lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.o
 # target to build an object file
 lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.o
 
 lib/bsoncxx/v_noabi/bsoncxx/oid.i: lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.i
@@ -439,6 +484,7 @@ lib/bsoncxx/v_noabi/bsoncxx/oid.i: lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.i
 # target to preprocess a source file
 lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.i
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.i
 
 lib/bsoncxx/v_noabi/bsoncxx/oid.s: lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.s
@@ -447,6 +493,7 @@ lib/bsoncxx/v_noabi/bsoncxx/oid.s: lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.s
 # target to generate assembly for a file
 lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.s
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/oid.cpp.s
 
 lib/bsoncxx/v_noabi/bsoncxx/private/itoa.o: lib/bsoncxx/v_noabi/bsoncxx/private/itoa.cpp.o
@@ -455,6 +502,7 @@ lib/bsoncxx/v_noabi/bsoncxx/private/itoa.o: lib/bsoncxx/v_noabi/bsoncxx/private/
 # target to build an object file
 lib/bsoncxx/v_noabi/bsoncxx/private/itoa.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/private/itoa.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/private/itoa.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/private/itoa.cpp.o
 
 lib/bsoncxx/v_noabi/bsoncxx/private/itoa.i: lib/bsoncxx/v_noabi/bsoncxx/private/itoa.cpp.i
@@ -463,6 +511,7 @@ lib/bsoncxx/v_noabi/bsoncxx/private/itoa.i: lib/bsoncxx/v_noabi/bsoncxx/private/
 # target to preprocess a source file
 lib/bsoncxx/v_noabi/bsoncxx/private/itoa.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/private/itoa.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/private/itoa.cpp.i
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/private/itoa.cpp.i
 
 lib/bsoncxx/v_noabi/bsoncxx/private/itoa.s: lib/bsoncxx/v_noabi/bsoncxx/private/itoa.cpp.s
@@ -471,6 +520,7 @@ lib/bsoncxx/v_noabi/bsoncxx/private/itoa.s: lib/bsoncxx/v_noabi/bsoncxx/private/
 # target to generate assembly for a file
 lib/bsoncxx/v_noabi/bsoncxx/private/itoa.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/private/itoa.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/private/itoa.cpp.s
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/private/itoa.cpp.s
 
 lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.o: lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.cpp.o
@@ -479,6 +529,7 @@ lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.o: lib/bsoncxx/v_noabi/bsoncxx/
 # target to build an object file
 lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.cpp.o
 
 lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.i: lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.cpp.i
@@ -487,6 +538,7 @@ lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.i: lib/bsoncxx/v_noabi/bsoncxx/
 # target to preprocess a source file
 lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.cpp.i
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.cpp.i
 
 lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.s: lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.cpp.s
@@ -495,6 +547,7 @@ lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.s: lib/bsoncxx/v_noabi/bsoncxx/
 # target to generate assembly for a file
 lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.cpp.s
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/string/view_or_value.cpp.s
 
 lib/bsoncxx/v_noabi/bsoncxx/types.o: lib/bsoncxx/v_noabi/bsoncxx/types.cpp.o
@@ -503,6 +556,7 @@ lib/bsoncxx/v_noabi/bsoncxx/types.o: lib/bsoncxx/v_noabi/bsoncxx/types.cpp.o
 # target to build an object file
 lib/bsoncxx/v_noabi/bsoncxx/types.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/types.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/types.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/types.cpp.o
 
 lib/bsoncxx/v_noabi/bsoncxx/types.i: lib/bsoncxx/v_noabi/bsoncxx/types.cpp.i
@@ -511,6 +565,7 @@ lib/bsoncxx/v_noabi/bsoncxx/types.i: lib/bsoncxx/v_noabi/bsoncxx/types.cpp.i
 # target to preprocess a source file
 lib/bsoncxx/v_noabi/bsoncxx/types.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/types.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/types.cpp.i
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/types.cpp.i
 
 lib/bsoncxx/v_noabi/bsoncxx/types.s: lib/bsoncxx/v_noabi/bsoncxx/types.cpp.s
@@ -519,6 +574,7 @@ lib/bsoncxx/v_noabi/bsoncxx/types.s: lib/bsoncxx/v_noabi/bsoncxx/types.cpp.s
 # target to generate assembly for a file
 lib/bsoncxx/v_noabi/bsoncxx/types.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/types.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/types.cpp.s
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/types.cpp.s
 
 lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.o: lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.cpp.o
@@ -527,6 +583,7 @@ lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.o: lib/bsoncxx/v_noabi/bsoncx
 # target to build an object file
 lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.cpp.o
 
 lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.i: lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.cpp.i
@@ -535,6 +592,7 @@ lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.i: lib/bsoncxx/v_noabi/bsoncx
 # target to preprocess a source file
 lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.cpp.i
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.cpp.i
 
 lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.s: lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.cpp.s
@@ -543,6 +601,7 @@ lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.s: lib/bsoncxx/v_noabi/bsoncx
 # target to generate assembly for a file
 lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.cpp.s
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/value.cpp.s
 
 lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.o: lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.cpp.o
@@ -551,6 +610,7 @@ lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.o: lib/bsoncxx/v_noabi/bsoncxx
 # target to build an object file
 lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.cpp.o
 
 lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.i: lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.cpp.i
@@ -559,6 +619,7 @@ lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.i: lib/bsoncxx/v_noabi/bsoncxx
 # target to preprocess a source file
 lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.cpp.i
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.cpp.i
 
 lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.s: lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.cpp.s
@@ -567,6 +628,7 @@ lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.s: lib/bsoncxx/v_noabi/bsoncxx
 # target to generate assembly for a file
 lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.cpp.s
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/types/bson_value/view.cpp.s
 
 lib/bsoncxx/v_noabi/bsoncxx/validate.o: lib/bsoncxx/v_noabi/bsoncxx/validate.cpp.o
@@ -575,6 +637,7 @@ lib/bsoncxx/v_noabi/bsoncxx/validate.o: lib/bsoncxx/v_noabi/bsoncxx/validate.cpp
 # target to build an object file
 lib/bsoncxx/v_noabi/bsoncxx/validate.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/validate.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/validate.cpp.o
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/validate.cpp.o
 
 lib/bsoncxx/v_noabi/bsoncxx/validate.i: lib/bsoncxx/v_noabi/bsoncxx/validate.cpp.i
@@ -583,6 +646,7 @@ lib/bsoncxx/v_noabi/bsoncxx/validate.i: lib/bsoncxx/v_noabi/bsoncxx/validate.cpp
 # target to preprocess a source file
 lib/bsoncxx/v_noabi/bsoncxx/validate.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/validate.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/validate.cpp.i
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/validate.cpp.i
 
 lib/bsoncxx/v_noabi/bsoncxx/validate.s: lib/bsoncxx/v_noabi/bsoncxx/validate.cpp.s
@@ -591,6 +655,7 @@ lib/bsoncxx/v_noabi/bsoncxx/validate.s: lib/bsoncxx/v_noabi/bsoncxx/validate.cpp
 # target to generate assembly for a file
 lib/bsoncxx/v_noabi/bsoncxx/validate.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/lib/bsoncxx/v_noabi/bsoncxx/validate.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/lib/bsoncxx/v_noabi/bsoncxx/validate.cpp.s
 .PHONY : lib/bsoncxx/v_noabi/bsoncxx/validate.cpp.s
 
 # Help Target
@@ -607,6 +672,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... bsoncxx_shared"
+	@echo "... bsoncxx_static"
 	@echo "... lib/bsoncxx/v_noabi/bsoncxx/array/element.o"
 	@echo "... lib/bsoncxx/v_noabi/bsoncxx/array/element.i"
 	@echo "... lib/bsoncxx/v_noabi/bsoncxx/array/element.s"

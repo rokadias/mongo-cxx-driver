@@ -341,6 +341,19 @@ bsoncxx_shared/fast:
 .PHONY : bsoncxx_shared/fast
 
 #=============================================================================
+# Target rules for targets named bsoncxx_static
+
+# Build rule for target.
+bsoncxx_static: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bsoncxx_static
+.PHONY : bsoncxx_static
+
+# fast build rule for target.
+bsoncxx_static/fast:
+	$(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build
+.PHONY : bsoncxx_static/fast
+
+#=============================================================================
 # Target rules for targets named generate-libbsoncxx_shared-pc
 
 # Build rule for target.
@@ -352,6 +365,19 @@ generate-libbsoncxx_shared-pc: cmake_check_build_system
 generate-libbsoncxx_shared-pc/fast:
 	$(MAKE) $(MAKESILENT) -f src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_shared-pc.dir/build.make src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_shared-pc.dir/build
 .PHONY : generate-libbsoncxx_shared-pc/fast
+
+#=============================================================================
+# Target rules for targets named generate-libbsoncxx_static-pc
+
+# Build rule for target.
+generate-libbsoncxx_static-pc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 generate-libbsoncxx_static-pc
+.PHONY : generate-libbsoncxx_static-pc
+
+# fast build rule for target.
+generate-libbsoncxx_static-pc/fast:
+	$(MAKE) $(MAKESILENT) -f src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/build.make src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/build
+.PHONY : generate-libbsoncxx_static-pc/fast
 
 #=============================================================================
 # Target rules for targets named bsoncxx_testing
@@ -406,6 +432,19 @@ mongocxx_shared/fast:
 .PHONY : mongocxx_shared/fast
 
 #=============================================================================
+# Target rules for targets named mongocxx_static
+
+# Build rule for target.
+mongocxx_static: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mongocxx_static
+.PHONY : mongocxx_static
+
+# fast build rule for target.
+mongocxx_static/fast:
+	$(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/build
+.PHONY : mongocxx_static/fast
+
+#=============================================================================
 # Target rules for targets named generate-libmongocxx_shared-pc
 
 # Build rule for target.
@@ -417,6 +456,19 @@ generate-libmongocxx_shared-pc: cmake_check_build_system
 generate-libmongocxx_shared-pc/fast:
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_shared-pc.dir/build.make src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_shared-pc.dir/build
 .PHONY : generate-libmongocxx_shared-pc/fast
+
+#=============================================================================
+# Target rules for targets named generate-libmongocxx_static-pc
+
+# Build rule for target.
+generate-libmongocxx_static-pc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 generate-libmongocxx_static-pc
+.PHONY : generate-libmongocxx_static-pc
+
+# fast build rule for target.
+generate-libmongocxx_static-pc/fast:
+	$(MAKE) $(MAKESILENT) -f src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/build.make src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/build
+.PHONY : generate-libmongocxx_static-pc/fast
 
 #=============================================================================
 # Target rules for targets named mongocxx_mocked
@@ -1209,7 +1261,9 @@ help:
 	@echo "... format"
 	@echo "... format-lint"
 	@echo "... generate-libbsoncxx_shared-pc"
+	@echo "... generate-libbsoncxx_static-pc"
 	@echo "... generate-libmongocxx_shared-pc"
+	@echo "... generate-libmongocxx_static-pc"
 	@echo "... hugo"
 	@echo "... hugo-deploy"
 	@echo "... hugo_dir"
@@ -1219,6 +1273,7 @@ help:
 	@echo "... aggregation_examples"
 	@echo "... automatic_client_side_field_level_encryption"
 	@echo "... bsoncxx_shared"
+	@echo "... bsoncxx_static"
 	@echo "... bsoncxx_test_properties_with_main"
 	@echo "... bsoncxx_testing"
 	@echo "... builder_basic"
@@ -1248,6 +1303,7 @@ help:
 	@echo "... microbenchmarks"
 	@echo "... mongocxx_mocked"
 	@echo "... mongocxx_shared"
+	@echo "... mongocxx_static"
 	@echo "... mongocxx_test_properties_with_main"
 	@echo "... pool"
 	@echo "... query"

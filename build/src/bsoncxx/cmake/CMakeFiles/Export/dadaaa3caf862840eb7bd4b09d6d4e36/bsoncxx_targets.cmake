@@ -3,11 +3,11 @@
 if("${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}" LESS 2.8)
    message(FATAL_ERROR "CMake >= 2.8.0 required")
 endif()
-if(CMAKE_VERSION VERSION_LESS "2.8.3")
-   message(FATAL_ERROR "CMake >= 2.8.3 required")
+if(CMAKE_VERSION VERSION_LESS "2.8.12")
+   message(FATAL_ERROR "CMake >= 2.8.12 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.3...3.28)
+cmake_policy(VERSION 2.8.12...3.28)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -19,7 +19,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set(_cmake_targets_defined "")
 set(_cmake_targets_not_defined "")
 set(_cmake_expected_targets "")
-foreach(_cmake_expected_target IN ITEMS mongo::bsoncxx_shared)
+foreach(_cmake_expected_target IN ITEMS mongo::bsoncxx_shared mongo::bsoncxx_static)
   list(APPEND _cmake_expected_targets "${_cmake_expected_target}")
   if(TARGET "${_cmake_expected_target}")
     list(APPEND _cmake_targets_defined "${_cmake_expected_target}")
@@ -63,6 +63,18 @@ set_target_properties(mongo::bsoncxx_shared PROPERTIES
   INTERFACE_BSONCXX_ABI_TAG_MONGOC_LINK_TYPE "h"
   INTERFACE_BSONCXX_ABI_TAG_POLYFILL_LIBRARY "s"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/bsoncxx/v_noabi;${_IMPORT_PREFIX}/include"
+)
+
+# Create imported target mongo::bsoncxx_static
+add_library(mongo::bsoncxx_static STATIC IMPORTED)
+
+set_target_properties(mongo::bsoncxx_static PROPERTIES
+  COMPATIBLE_INTERFACE_STRING "BSONCXX_ABI_TAG_MONGOC_LINK_TYPE;BSONCXX_ABI_TAG_POLYFILL_LIBRARY"
+  INTERFACE_BSONCXX_ABI_TAG_MONGOC_LINK_TYPE "h"
+  INTERFACE_BSONCXX_ABI_TAG_POLYFILL_LIBRARY "s"
+  INTERFACE_COMPILE_DEFINITIONS "BSONCXX_STATIC"
+  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/bsoncxx/v_noabi;${_IMPORT_PREFIX}/include"
+  INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:mongo::bson_shared>"
 )
 
 # Load information for each installed configuration.

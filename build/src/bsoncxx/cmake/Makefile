@@ -185,6 +185,20 @@ generate-libbsoncxx_shared-pc/fast:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_shared-pc.dir/build.make src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_shared-pc.dir/build
 .PHONY : generate-libbsoncxx_shared-pc/fast
 
+# Convenience name for target.
+src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/rule:
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/rule
+.PHONY : src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/rule
+
+# Convenience name for target.
+generate-libbsoncxx_static-pc: src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/rule
+.PHONY : generate-libbsoncxx_static-pc
+
+# fast build rule for target.
+generate-libbsoncxx_static-pc/fast:
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/build.make src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/build
+.PHONY : generate-libbsoncxx_static-pc/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -199,6 +213,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... generate-libbsoncxx_shared-pc"
+	@echo "... generate-libbsoncxx_static-pc"
 .PHONY : help
 
 

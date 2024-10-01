@@ -19,7 +19,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set(_cmake_targets_defined "")
 set(_cmake_targets_not_defined "")
 set(_cmake_expected_targets "")
-foreach(_cmake_expected_target IN ITEMS mongo::mongocxx_shared)
+foreach(_cmake_expected_target IN ITEMS mongo::mongocxx_shared mongo::mongocxx_static)
   list(APPEND _cmake_expected_targets "${_cmake_expected_target}")
   if(TARGET "${_cmake_expected_target}")
     list(APPEND _cmake_targets_defined "${_cmake_expected_target}")
@@ -65,6 +65,17 @@ set_target_properties(mongo::mongocxx_shared PROPERTIES
   INTERFACE_LINK_LIBRARIES "mongo::bsoncxx_shared"
 )
 
+# Create imported target mongo::mongocxx_static
+add_library(mongo::mongocxx_static STATIC IMPORTED)
+
+set_target_properties(mongo::mongocxx_static PROPERTIES
+  INTERFACE_BSONCXX_ABI_TAG_MONGOC_LINK_TYPE "h"
+  INTERFACE_BSONCXX_ABI_TAG_POLYFILL_LIBRARY "s"
+  INTERFACE_COMPILE_DEFINITIONS "MONGOCXX_STATIC"
+  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/mongocxx/v_noabi;${_IMPORT_PREFIX}/include"
+  INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:mongo::mongoc_shared>;mongo::bsoncxx_static"
+)
+
 # Load information for each installed configuration.
 file(GLOB _cmake_config_files "${CMAKE_CURRENT_LIST_DIR}/mongocxx_targets-*.cmake")
 foreach(_cmake_config_file IN LISTS _cmake_config_files)
@@ -104,7 +115,7 @@ unset(_cmake_import_check_targets)
 # Make sure the targets which have been exported in some other
 # export set exist.
 unset(${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets)
-foreach(_target "mongo::bsoncxx_shared" )
+foreach(_target "mongo::bsoncxx_shared" "mongo::bsoncxx_static" )
   if(NOT TARGET "${_target}" )
     set(${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets "${${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets} ${_target}")
   endif()

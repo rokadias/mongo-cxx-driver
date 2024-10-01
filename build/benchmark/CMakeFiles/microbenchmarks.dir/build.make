@@ -141,7 +141,16 @@ benchmark/microbenchmarks: benchmark/CMakeFiles/microbenchmarks.dir/microbench.c
 benchmark/microbenchmarks: benchmark/CMakeFiles/microbenchmarks.dir/score_recorder.cpp.o
 benchmark/microbenchmarks: benchmark/CMakeFiles/microbenchmarks.dir/build.make
 benchmark/microbenchmarks: src/mongocxx/libmongocxx.so.3.10.1
+benchmark/microbenchmarks: src/mongocxx/libmongocxx-static.a
 benchmark/microbenchmarks: src/bsoncxx/libbsoncxx.so.3.10.1
+benchmark/microbenchmarks: /usr/lib/libmongoc-1.0.so.0.0.0
+benchmark/microbenchmarks: /usr/lib/libssl.so
+benchmark/microbenchmarks: /usr/lib/libcrypto.so
+benchmark/microbenchmarks: /usr/lib/libsasl2.so
+benchmark/microbenchmarks: src/bsoncxx/libbsoncxx-static.a
+benchmark/microbenchmarks: /usr/lib/libbson-1.0.so.0.0.0
+benchmark/microbenchmarks: /usr/lib/librt.a
+benchmark/microbenchmarks: /usr/lib/libm.so
 benchmark/microbenchmarks: benchmark/CMakeFiles/microbenchmarks.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable microbenchmarks"
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/benchmark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/microbenchmarks.dir/link.txt --verbose=$(VERBOSE)

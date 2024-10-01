@@ -16,6 +16,10 @@ cc1d9df6d44b9bbb491d168c177e19b4 examples/CMakeFiles/run-examples
 6f403520ea52bfd5f5685c23113e887f generate_uninstall/CMakeFiles/uninstall
 d927cc828ac67fe4a75b2b7b3c3da314 mongo-cxx-driver-r3.10.1.tar.gz
 bd1a596d46ef6390e739051c2400ff13 src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_shared-pc
+bd1a596d46ef6390e739051c2400ff13 src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc
+4d0940a0f38561e8de502bbd3436acc3 src/bsoncxx/cmake/libbsoncxx-static.pc
 3e2fbf50d03da691962e10e9c7e2d904 src/bsoncxx/cmake/libbsoncxx.pc
 195fabe5f812a3f2e5a2e34a2123c27c src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_shared-pc
+195fabe5f812a3f2e5a2e34a2123c27c src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc
+cfa3fb0b212f693633227cbf775acbb2 src/mongocxx/cmake/libmongocxx-static.pc
 a71fa808a56aa7ac8c4558d010e94155 src/mongocxx/cmake/libmongocxx.pc

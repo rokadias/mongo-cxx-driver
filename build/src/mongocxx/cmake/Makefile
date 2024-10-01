@@ -185,6 +185,20 @@ generate-libmongocxx_shared-pc/fast:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_shared-pc.dir/build.make src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_shared-pc.dir/build
 .PHONY : generate-libmongocxx_shared-pc/fast
 
+# Convenience name for target.
+src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/rule:
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/rule
+.PHONY : src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/rule
+
+# Convenience name for target.
+generate-libmongocxx_static-pc: src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/rule
+.PHONY : generate-libmongocxx_static-pc
+
+# fast build rule for target.
+generate-libmongocxx_static-pc/fast:
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/build.make src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/build
+.PHONY : generate-libmongocxx_static-pc/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -199,6 +213,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... generate-libmongocxx_shared-pc"
+	@echo "... generate-libmongocxx_static-pc"
 .PHONY : help
 
 

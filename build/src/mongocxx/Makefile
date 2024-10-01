@@ -185,12 +185,27 @@ mongocxx_shared/fast:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/build
 .PHONY : mongocxx_shared/fast
 
+# Convenience name for target.
+src/mongocxx/CMakeFiles/mongocxx_static.dir/rule:
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/CMakeFiles/mongocxx_static.dir/rule
+.PHONY : src/mongocxx/CMakeFiles/mongocxx_static.dir/rule
+
+# Convenience name for target.
+mongocxx_static: src/mongocxx/CMakeFiles/mongocxx_static.dir/rule
+.PHONY : mongocxx_static
+
+# fast build rule for target.
+mongocxx_static/fast:
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/build
+.PHONY : mongocxx_static/fast
+
 lib/mongocxx/v_noabi/mongocxx/bulk_write.o: lib/mongocxx/v_noabi/mongocxx/bulk_write.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/bulk_write.o
 
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/bulk_write.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/bulk_write.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/bulk_write.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/bulk_write.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/bulk_write.i: lib/mongocxx/v_noabi/mongocxx/bulk_write.cpp.i
@@ -199,6 +214,7 @@ lib/mongocxx/v_noabi/mongocxx/bulk_write.i: lib/mongocxx/v_noabi/mongocxx/bulk_w
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/bulk_write.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/bulk_write.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/bulk_write.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/bulk_write.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/bulk_write.s: lib/mongocxx/v_noabi/mongocxx/bulk_write.cpp.s
@@ -207,6 +223,7 @@ lib/mongocxx/v_noabi/mongocxx/bulk_write.s: lib/mongocxx/v_noabi/mongocxx/bulk_w
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/bulk_write.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/bulk_write.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/bulk_write.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/bulk_write.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/change_stream.o: lib/mongocxx/v_noabi/mongocxx/change_stream.cpp.o
@@ -215,6 +232,7 @@ lib/mongocxx/v_noabi/mongocxx/change_stream.o: lib/mongocxx/v_noabi/mongocxx/cha
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/change_stream.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/change_stream.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/change_stream.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/change_stream.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/change_stream.i: lib/mongocxx/v_noabi/mongocxx/change_stream.cpp.i
@@ -223,6 +241,7 @@ lib/mongocxx/v_noabi/mongocxx/change_stream.i: lib/mongocxx/v_noabi/mongocxx/cha
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/change_stream.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/change_stream.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/change_stream.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/change_stream.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/change_stream.s: lib/mongocxx/v_noabi/mongocxx/change_stream.cpp.s
@@ -231,6 +250,7 @@ lib/mongocxx/v_noabi/mongocxx/change_stream.s: lib/mongocxx/v_noabi/mongocxx/cha
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/change_stream.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/change_stream.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/change_stream.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/change_stream.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/client.o: lib/mongocxx/v_noabi/mongocxx/client.cpp.o
@@ -239,6 +259,7 @@ lib/mongocxx/v_noabi/mongocxx/client.o: lib/mongocxx/v_noabi/mongocxx/client.cpp
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/client.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/client.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/client.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/client.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/client.i: lib/mongocxx/v_noabi/mongocxx/client.cpp.i
@@ -247,6 +268,7 @@ lib/mongocxx/v_noabi/mongocxx/client.i: lib/mongocxx/v_noabi/mongocxx/client.cpp
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/client.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/client.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/client.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/client.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/client.s: lib/mongocxx/v_noabi/mongocxx/client.cpp.s
@@ -255,6 +277,7 @@ lib/mongocxx/v_noabi/mongocxx/client.s: lib/mongocxx/v_noabi/mongocxx/client.cpp
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/client.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/client.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/client.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/client.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/client_encryption.o: lib/mongocxx/v_noabi/mongocxx/client_encryption.cpp.o
@@ -263,6 +286,7 @@ lib/mongocxx/v_noabi/mongocxx/client_encryption.o: lib/mongocxx/v_noabi/mongocxx
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/client_encryption.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/client_encryption.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/client_encryption.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/client_encryption.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/client_encryption.i: lib/mongocxx/v_noabi/mongocxx/client_encryption.cpp.i
@@ -271,6 +295,7 @@ lib/mongocxx/v_noabi/mongocxx/client_encryption.i: lib/mongocxx/v_noabi/mongocxx
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/client_encryption.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/client_encryption.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/client_encryption.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/client_encryption.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/client_encryption.s: lib/mongocxx/v_noabi/mongocxx/client_encryption.cpp.s
@@ -279,6 +304,7 @@ lib/mongocxx/v_noabi/mongocxx/client_encryption.s: lib/mongocxx/v_noabi/mongocxx
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/client_encryption.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/client_encryption.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/client_encryption.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/client_encryption.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/client_session.o: lib/mongocxx/v_noabi/mongocxx/client_session.cpp.o
@@ -287,6 +313,7 @@ lib/mongocxx/v_noabi/mongocxx/client_session.o: lib/mongocxx/v_noabi/mongocxx/cl
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/client_session.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/client_session.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/client_session.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/client_session.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/client_session.i: lib/mongocxx/v_noabi/mongocxx/client_session.cpp.i
@@ -295,6 +322,7 @@ lib/mongocxx/v_noabi/mongocxx/client_session.i: lib/mongocxx/v_noabi/mongocxx/cl
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/client_session.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/client_session.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/client_session.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/client_session.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/client_session.s: lib/mongocxx/v_noabi/mongocxx/client_session.cpp.s
@@ -303,6 +331,7 @@ lib/mongocxx/v_noabi/mongocxx/client_session.s: lib/mongocxx/v_noabi/mongocxx/cl
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/client_session.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/client_session.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/client_session.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/client_session.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/collection.o: lib/mongocxx/v_noabi/mongocxx/collection.cpp.o
@@ -311,6 +340,7 @@ lib/mongocxx/v_noabi/mongocxx/collection.o: lib/mongocxx/v_noabi/mongocxx/collec
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/collection.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/collection.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/collection.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/collection.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/collection.i: lib/mongocxx/v_noabi/mongocxx/collection.cpp.i
@@ -319,6 +349,7 @@ lib/mongocxx/v_noabi/mongocxx/collection.i: lib/mongocxx/v_noabi/mongocxx/collec
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/collection.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/collection.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/collection.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/collection.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/collection.s: lib/mongocxx/v_noabi/mongocxx/collection.cpp.s
@@ -327,6 +358,7 @@ lib/mongocxx/v_noabi/mongocxx/collection.s: lib/mongocxx/v_noabi/mongocxx/collec
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/collection.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/collection.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/collection.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/collection.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/cursor.o: lib/mongocxx/v_noabi/mongocxx/cursor.cpp.o
@@ -335,6 +367,7 @@ lib/mongocxx/v_noabi/mongocxx/cursor.o: lib/mongocxx/v_noabi/mongocxx/cursor.cpp
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/cursor.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/cursor.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/cursor.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/cursor.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/cursor.i: lib/mongocxx/v_noabi/mongocxx/cursor.cpp.i
@@ -343,6 +376,7 @@ lib/mongocxx/v_noabi/mongocxx/cursor.i: lib/mongocxx/v_noabi/mongocxx/cursor.cpp
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/cursor.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/cursor.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/cursor.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/cursor.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/cursor.s: lib/mongocxx/v_noabi/mongocxx/cursor.cpp.s
@@ -351,6 +385,7 @@ lib/mongocxx/v_noabi/mongocxx/cursor.s: lib/mongocxx/v_noabi/mongocxx/cursor.cpp
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/cursor.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/cursor.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/cursor.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/cursor.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/database.o: lib/mongocxx/v_noabi/mongocxx/database.cpp.o
@@ -359,6 +394,7 @@ lib/mongocxx/v_noabi/mongocxx/database.o: lib/mongocxx/v_noabi/mongocxx/database
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/database.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/database.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/database.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/database.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/database.i: lib/mongocxx/v_noabi/mongocxx/database.cpp.i
@@ -367,6 +403,7 @@ lib/mongocxx/v_noabi/mongocxx/database.i: lib/mongocxx/v_noabi/mongocxx/database
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/database.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/database.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/database.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/database.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/database.s: lib/mongocxx/v_noabi/mongocxx/database.cpp.s
@@ -375,6 +412,7 @@ lib/mongocxx/v_noabi/mongocxx/database.s: lib/mongocxx/v_noabi/mongocxx/database
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/database.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/database.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/database.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/database.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.o: lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.cpp.o
@@ -383,6 +421,7 @@ lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.o: lib/mongocxx/v_noab
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.i: lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.cpp.i
@@ -391,6 +430,7 @@ lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.i: lib/mongocxx/v_noab
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.s: lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.cpp.s
@@ -399,6 +439,7 @@ lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.s: lib/mongocxx/v_noab
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/command_failed_event.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/events/command_started_event.o: lib/mongocxx/v_noabi/mongocxx/events/command_started_event.cpp.o
@@ -407,6 +448,7 @@ lib/mongocxx/v_noabi/mongocxx/events/command_started_event.o: lib/mongocxx/v_noa
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/events/command_started_event.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/command_started_event.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/command_started_event.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/command_started_event.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/events/command_started_event.i: lib/mongocxx/v_noabi/mongocxx/events/command_started_event.cpp.i
@@ -415,6 +457,7 @@ lib/mongocxx/v_noabi/mongocxx/events/command_started_event.i: lib/mongocxx/v_noa
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/events/command_started_event.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/command_started_event.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/command_started_event.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/command_started_event.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/events/command_started_event.s: lib/mongocxx/v_noabi/mongocxx/events/command_started_event.cpp.s
@@ -423,6 +466,7 @@ lib/mongocxx/v_noabi/mongocxx/events/command_started_event.s: lib/mongocxx/v_noa
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/events/command_started_event.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/command_started_event.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/command_started_event.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/command_started_event.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.o: lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.cpp.o
@@ -431,6 +475,7 @@ lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.o: lib/mongocxx/v_n
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.i: lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.cpp.i
@@ -439,6 +484,7 @@ lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.i: lib/mongocxx/v_n
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.s: lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.cpp.s
@@ -447,6 +493,7 @@ lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.s: lib/mongocxx/v_n
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/command_succeeded_event.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.o: lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.cpp.o
@@ -455,6 +502,7 @@ lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.o: lib/mongocxx/v_no
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.i: lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.cpp.i
@@ -463,6 +511,7 @@ lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.i: lib/mongocxx/v_no
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.s: lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.cpp.s
@@ -471,6 +520,7 @@ lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.s: lib/mongocxx/v_no
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/heartbeat_failed_event.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.o: lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.cpp.o
@@ -479,6 +529,7 @@ lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.o: lib/mongocxx/v_n
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.i: lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.cpp.i
@@ -487,6 +538,7 @@ lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.i: lib/mongocxx/v_n
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.s: lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.cpp.s
@@ -495,6 +547,7 @@ lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.s: lib/mongocxx/v_n
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/heartbeat_started_event.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.o: lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.cpp.o
@@ -503,6 +556,7 @@ lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.o: lib/mongocxx/v
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.i: lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.cpp.i
@@ -511,6 +565,7 @@ lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.i: lib/mongocxx/v
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.s: lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.cpp.s
@@ -519,6 +574,7 @@ lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.s: lib/mongocxx/v
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/heartbeat_succeeded_event.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.o: lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.cpp.o
@@ -527,6 +583,7 @@ lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.o: lib/mongocxx/v_noab
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.i: lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.cpp.i
@@ -535,6 +592,7 @@ lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.i: lib/mongocxx/v_noab
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.s: lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.cpp.s
@@ -543,6 +601,7 @@ lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.s: lib/mongocxx/v_noab
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/server_changed_event.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.o: lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.cpp.o
@@ -551,6 +610,7 @@ lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.o: lib/mongocxx/v_noabi
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.i: lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.cpp.i
@@ -559,6 +619,7 @@ lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.i: lib/mongocxx/v_noabi
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.s: lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.cpp.s
@@ -567,6 +628,7 @@ lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.s: lib/mongocxx/v_noabi
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/server_closed_event.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/events/server_description.o: lib/mongocxx/v_noabi/mongocxx/events/server_description.cpp.o
@@ -575,6 +637,7 @@ lib/mongocxx/v_noabi/mongocxx/events/server_description.o: lib/mongocxx/v_noabi/
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/events/server_description.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/server_description.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/server_description.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/server_description.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/events/server_description.i: lib/mongocxx/v_noabi/mongocxx/events/server_description.cpp.i
@@ -583,6 +646,7 @@ lib/mongocxx/v_noabi/mongocxx/events/server_description.i: lib/mongocxx/v_noabi/
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/events/server_description.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/server_description.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/server_description.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/server_description.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/events/server_description.s: lib/mongocxx/v_noabi/mongocxx/events/server_description.cpp.s
@@ -591,6 +655,7 @@ lib/mongocxx/v_noabi/mongocxx/events/server_description.s: lib/mongocxx/v_noabi/
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/events/server_description.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/server_description.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/server_description.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/server_description.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.o: lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.cpp.o
@@ -599,6 +664,7 @@ lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.o: lib/mongocxx/v_noab
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.i: lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.cpp.i
@@ -607,6 +673,7 @@ lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.i: lib/mongocxx/v_noab
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.s: lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.cpp.s
@@ -615,6 +682,7 @@ lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.s: lib/mongocxx/v_noab
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/server_opening_event.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.o: lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.cpp.o
@@ -623,6 +691,7 @@ lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.o: lib/mongocxx/v_no
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.i: lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.cpp.i
@@ -631,6 +700,7 @@ lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.i: lib/mongocxx/v_no
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.s: lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.cpp.s
@@ -639,6 +709,7 @@ lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.s: lib/mongocxx/v_no
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/topology_changed_event.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.o: lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.cpp.o
@@ -647,6 +718,7 @@ lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.o: lib/mongocxx/v_noa
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.i: lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.cpp.i
@@ -655,6 +727,7 @@ lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.i: lib/mongocxx/v_noa
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.s: lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.cpp.s
@@ -663,6 +736,7 @@ lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.s: lib/mongocxx/v_noa
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/topology_closed_event.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/events/topology_description.o: lib/mongocxx/v_noabi/mongocxx/events/topology_description.cpp.o
@@ -671,6 +745,7 @@ lib/mongocxx/v_noabi/mongocxx/events/topology_description.o: lib/mongocxx/v_noab
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/events/topology_description.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_description.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_description.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/topology_description.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/events/topology_description.i: lib/mongocxx/v_noabi/mongocxx/events/topology_description.cpp.i
@@ -679,6 +754,7 @@ lib/mongocxx/v_noabi/mongocxx/events/topology_description.i: lib/mongocxx/v_noab
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/events/topology_description.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_description.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_description.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/topology_description.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/events/topology_description.s: lib/mongocxx/v_noabi/mongocxx/events/topology_description.cpp.s
@@ -687,6 +763,7 @@ lib/mongocxx/v_noabi/mongocxx/events/topology_description.s: lib/mongocxx/v_noab
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/events/topology_description.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_description.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_description.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/topology_description.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.o: lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.cpp.o
@@ -695,6 +772,7 @@ lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.o: lib/mongocxx/v_no
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.i: lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.cpp.i
@@ -703,6 +781,7 @@ lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.i: lib/mongocxx/v_no
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.s: lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.cpp.s
@@ -711,6 +790,7 @@ lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.s: lib/mongocxx/v_no
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/events/topology_opening_event.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/exception/error_code.o: lib/mongocxx/v_noabi/mongocxx/exception/error_code.cpp.o
@@ -719,6 +799,7 @@ lib/mongocxx/v_noabi/mongocxx/exception/error_code.o: lib/mongocxx/v_noabi/mongo
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/exception/error_code.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/exception/error_code.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/exception/error_code.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/exception/error_code.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/exception/error_code.i: lib/mongocxx/v_noabi/mongocxx/exception/error_code.cpp.i
@@ -727,6 +808,7 @@ lib/mongocxx/v_noabi/mongocxx/exception/error_code.i: lib/mongocxx/v_noabi/mongo
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/exception/error_code.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/exception/error_code.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/exception/error_code.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/exception/error_code.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/exception/error_code.s: lib/mongocxx/v_noabi/mongocxx/exception/error_code.cpp.s
@@ -735,6 +817,7 @@ lib/mongocxx/v_noabi/mongocxx/exception/error_code.s: lib/mongocxx/v_noabi/mongo
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/exception/error_code.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/exception/error_code.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/exception/error_code.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/exception/error_code.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.o: lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.cpp.o
@@ -743,6 +826,7 @@ lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.o: lib/mongocxx/v_no
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.i: lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.cpp.i
@@ -751,6 +835,7 @@ lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.i: lib/mongocxx/v_no
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.s: lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.cpp.s
@@ -759,6 +844,7 @@ lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.s: lib/mongocxx/v_no
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/exception/operation_exception.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.o: lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.cpp.o
@@ -767,6 +853,7 @@ lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.o: lib/mongocxx/v_noab
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.i: lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.cpp.i
@@ -775,6 +862,7 @@ lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.i: lib/mongocxx/v_noab
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.s: lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.cpp.s
@@ -783,6 +871,7 @@ lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.s: lib/mongocxx/v_noab
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/exception/server_error_code.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.o: lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.cpp.o
@@ -791,6 +880,7 @@ lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.o: lib/mongocxx/v_noabi/mongocxx/gri
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.i: lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.cpp.i
@@ -799,6 +889,7 @@ lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.i: lib/mongocxx/v_noabi/mongocxx/gri
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.s: lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.cpp.s
@@ -807,6 +898,7 @@ lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.s: lib/mongocxx/v_noabi/mongocxx/gri
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/gridfs/bucket.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.o: lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.cpp.o
@@ -815,6 +907,7 @@ lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.o: lib/mongocxx/v_noabi/mongocxx
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.i: lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.cpp.i
@@ -823,6 +916,7 @@ lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.i: lib/mongocxx/v_noabi/mongocxx
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.s: lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.cpp.s
@@ -831,6 +925,7 @@ lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.s: lib/mongocxx/v_noabi/mongocxx
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/gridfs/downloader.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.o: lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.cpp.o
@@ -839,6 +934,7 @@ lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.o: lib/mongocxx/v_noabi/mongocxx/g
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.i: lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.cpp.i
@@ -847,6 +943,7 @@ lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.i: lib/mongocxx/v_noabi/mongocxx/g
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.s: lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.cpp.s
@@ -855,6 +952,7 @@ lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.s: lib/mongocxx/v_noabi/mongocxx/g
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/gridfs/uploader.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/hint.o: lib/mongocxx/v_noabi/mongocxx/hint.cpp.o
@@ -863,6 +961,7 @@ lib/mongocxx/v_noabi/mongocxx/hint.o: lib/mongocxx/v_noabi/mongocxx/hint.cpp.o
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/hint.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/hint.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/hint.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/hint.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/hint.i: lib/mongocxx/v_noabi/mongocxx/hint.cpp.i
@@ -871,6 +970,7 @@ lib/mongocxx/v_noabi/mongocxx/hint.i: lib/mongocxx/v_noabi/mongocxx/hint.cpp.i
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/hint.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/hint.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/hint.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/hint.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/hint.s: lib/mongocxx/v_noabi/mongocxx/hint.cpp.s
@@ -879,6 +979,7 @@ lib/mongocxx/v_noabi/mongocxx/hint.s: lib/mongocxx/v_noabi/mongocxx/hint.cpp.s
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/hint.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/hint.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/hint.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/hint.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/index_model.o: lib/mongocxx/v_noabi/mongocxx/index_model.cpp.o
@@ -887,6 +988,7 @@ lib/mongocxx/v_noabi/mongocxx/index_model.o: lib/mongocxx/v_noabi/mongocxx/index
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/index_model.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/index_model.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/index_model.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/index_model.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/index_model.i: lib/mongocxx/v_noabi/mongocxx/index_model.cpp.i
@@ -895,6 +997,7 @@ lib/mongocxx/v_noabi/mongocxx/index_model.i: lib/mongocxx/v_noabi/mongocxx/index
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/index_model.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/index_model.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/index_model.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/index_model.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/index_model.s: lib/mongocxx/v_noabi/mongocxx/index_model.cpp.s
@@ -903,6 +1006,7 @@ lib/mongocxx/v_noabi/mongocxx/index_model.s: lib/mongocxx/v_noabi/mongocxx/index
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/index_model.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/index_model.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/index_model.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/index_model.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/index_view.o: lib/mongocxx/v_noabi/mongocxx/index_view.cpp.o
@@ -911,6 +1015,7 @@ lib/mongocxx/v_noabi/mongocxx/index_view.o: lib/mongocxx/v_noabi/mongocxx/index_
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/index_view.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/index_view.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/index_view.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/index_view.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/index_view.i: lib/mongocxx/v_noabi/mongocxx/index_view.cpp.i
@@ -919,6 +1024,7 @@ lib/mongocxx/v_noabi/mongocxx/index_view.i: lib/mongocxx/v_noabi/mongocxx/index_
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/index_view.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/index_view.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/index_view.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/index_view.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/index_view.s: lib/mongocxx/v_noabi/mongocxx/index_view.cpp.s
@@ -927,6 +1033,7 @@ lib/mongocxx/v_noabi/mongocxx/index_view.s: lib/mongocxx/v_noabi/mongocxx/index_
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/index_view.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/index_view.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/index_view.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/index_view.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/instance.o: lib/mongocxx/v_noabi/mongocxx/instance.cpp.o
@@ -935,6 +1042,7 @@ lib/mongocxx/v_noabi/mongocxx/instance.o: lib/mongocxx/v_noabi/mongocxx/instance
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/instance.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/instance.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/instance.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/instance.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/instance.i: lib/mongocxx/v_noabi/mongocxx/instance.cpp.i
@@ -943,6 +1051,7 @@ lib/mongocxx/v_noabi/mongocxx/instance.i: lib/mongocxx/v_noabi/mongocxx/instance
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/instance.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/instance.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/instance.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/instance.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/instance.s: lib/mongocxx/v_noabi/mongocxx/instance.cpp.s
@@ -951,6 +1060,7 @@ lib/mongocxx/v_noabi/mongocxx/instance.s: lib/mongocxx/v_noabi/mongocxx/instance
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/instance.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/instance.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/instance.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/instance.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/logger.o: lib/mongocxx/v_noabi/mongocxx/logger.cpp.o
@@ -959,6 +1069,7 @@ lib/mongocxx/v_noabi/mongocxx/logger.o: lib/mongocxx/v_noabi/mongocxx/logger.cpp
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/logger.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/logger.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/logger.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/logger.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/logger.i: lib/mongocxx/v_noabi/mongocxx/logger.cpp.i
@@ -967,6 +1078,7 @@ lib/mongocxx/v_noabi/mongocxx/logger.i: lib/mongocxx/v_noabi/mongocxx/logger.cpp
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/logger.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/logger.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/logger.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/logger.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/logger.s: lib/mongocxx/v_noabi/mongocxx/logger.cpp.s
@@ -975,6 +1087,7 @@ lib/mongocxx/v_noabi/mongocxx/logger.s: lib/mongocxx/v_noabi/mongocxx/logger.cpp
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/logger.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/logger.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/logger.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/logger.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/model/delete_many.o: lib/mongocxx/v_noabi/mongocxx/model/delete_many.cpp.o
@@ -983,6 +1096,7 @@ lib/mongocxx/v_noabi/mongocxx/model/delete_many.o: lib/mongocxx/v_noabi/mongocxx
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/model/delete_many.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/delete_many.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/delete_many.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/delete_many.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/model/delete_many.i: lib/mongocxx/v_noabi/mongocxx/model/delete_many.cpp.i
@@ -991,6 +1105,7 @@ lib/mongocxx/v_noabi/mongocxx/model/delete_many.i: lib/mongocxx/v_noabi/mongocxx
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/model/delete_many.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/delete_many.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/delete_many.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/delete_many.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/model/delete_many.s: lib/mongocxx/v_noabi/mongocxx/model/delete_many.cpp.s
@@ -999,6 +1114,7 @@ lib/mongocxx/v_noabi/mongocxx/model/delete_many.s: lib/mongocxx/v_noabi/mongocxx
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/model/delete_many.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/delete_many.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/delete_many.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/delete_many.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/model/delete_one.o: lib/mongocxx/v_noabi/mongocxx/model/delete_one.cpp.o
@@ -1007,6 +1123,7 @@ lib/mongocxx/v_noabi/mongocxx/model/delete_one.o: lib/mongocxx/v_noabi/mongocxx/
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/model/delete_one.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/delete_one.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/delete_one.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/delete_one.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/model/delete_one.i: lib/mongocxx/v_noabi/mongocxx/model/delete_one.cpp.i
@@ -1015,6 +1132,7 @@ lib/mongocxx/v_noabi/mongocxx/model/delete_one.i: lib/mongocxx/v_noabi/mongocxx/
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/model/delete_one.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/delete_one.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/delete_one.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/delete_one.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/model/delete_one.s: lib/mongocxx/v_noabi/mongocxx/model/delete_one.cpp.s
@@ -1023,6 +1141,7 @@ lib/mongocxx/v_noabi/mongocxx/model/delete_one.s: lib/mongocxx/v_noabi/mongocxx/
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/model/delete_one.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/delete_one.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/delete_one.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/delete_one.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/model/insert_one.o: lib/mongocxx/v_noabi/mongocxx/model/insert_one.cpp.o
@@ -1031,6 +1150,7 @@ lib/mongocxx/v_noabi/mongocxx/model/insert_one.o: lib/mongocxx/v_noabi/mongocxx/
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/model/insert_one.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/insert_one.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/insert_one.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/insert_one.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/model/insert_one.i: lib/mongocxx/v_noabi/mongocxx/model/insert_one.cpp.i
@@ -1039,6 +1159,7 @@ lib/mongocxx/v_noabi/mongocxx/model/insert_one.i: lib/mongocxx/v_noabi/mongocxx/
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/model/insert_one.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/insert_one.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/insert_one.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/insert_one.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/model/insert_one.s: lib/mongocxx/v_noabi/mongocxx/model/insert_one.cpp.s
@@ -1047,6 +1168,7 @@ lib/mongocxx/v_noabi/mongocxx/model/insert_one.s: lib/mongocxx/v_noabi/mongocxx/
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/model/insert_one.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/insert_one.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/insert_one.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/insert_one.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/model/replace_one.o: lib/mongocxx/v_noabi/mongocxx/model/replace_one.cpp.o
@@ -1055,6 +1177,7 @@ lib/mongocxx/v_noabi/mongocxx/model/replace_one.o: lib/mongocxx/v_noabi/mongocxx
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/model/replace_one.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/replace_one.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/replace_one.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/replace_one.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/model/replace_one.i: lib/mongocxx/v_noabi/mongocxx/model/replace_one.cpp.i
@@ -1063,6 +1186,7 @@ lib/mongocxx/v_noabi/mongocxx/model/replace_one.i: lib/mongocxx/v_noabi/mongocxx
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/model/replace_one.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/replace_one.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/replace_one.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/replace_one.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/model/replace_one.s: lib/mongocxx/v_noabi/mongocxx/model/replace_one.cpp.s
@@ -1071,6 +1195,7 @@ lib/mongocxx/v_noabi/mongocxx/model/replace_one.s: lib/mongocxx/v_noabi/mongocxx
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/model/replace_one.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/replace_one.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/replace_one.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/replace_one.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/model/update_many.o: lib/mongocxx/v_noabi/mongocxx/model/update_many.cpp.o
@@ -1079,6 +1204,7 @@ lib/mongocxx/v_noabi/mongocxx/model/update_many.o: lib/mongocxx/v_noabi/mongocxx
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/model/update_many.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/update_many.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/update_many.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/update_many.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/model/update_many.i: lib/mongocxx/v_noabi/mongocxx/model/update_many.cpp.i
@@ -1087,6 +1213,7 @@ lib/mongocxx/v_noabi/mongocxx/model/update_many.i: lib/mongocxx/v_noabi/mongocxx
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/model/update_many.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/update_many.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/update_many.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/update_many.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/model/update_many.s: lib/mongocxx/v_noabi/mongocxx/model/update_many.cpp.s
@@ -1095,6 +1222,7 @@ lib/mongocxx/v_noabi/mongocxx/model/update_many.s: lib/mongocxx/v_noabi/mongocxx
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/model/update_many.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/update_many.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/update_many.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/update_many.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/model/update_one.o: lib/mongocxx/v_noabi/mongocxx/model/update_one.cpp.o
@@ -1103,6 +1231,7 @@ lib/mongocxx/v_noabi/mongocxx/model/update_one.o: lib/mongocxx/v_noabi/mongocxx/
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/model/update_one.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/update_one.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/update_one.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/update_one.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/model/update_one.i: lib/mongocxx/v_noabi/mongocxx/model/update_one.cpp.i
@@ -1111,6 +1240,7 @@ lib/mongocxx/v_noabi/mongocxx/model/update_one.i: lib/mongocxx/v_noabi/mongocxx/
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/model/update_one.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/update_one.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/update_one.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/update_one.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/model/update_one.s: lib/mongocxx/v_noabi/mongocxx/model/update_one.cpp.s
@@ -1119,6 +1249,7 @@ lib/mongocxx/v_noabi/mongocxx/model/update_one.s: lib/mongocxx/v_noabi/mongocxx/
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/model/update_one.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/update_one.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/update_one.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/update_one.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/model/write.o: lib/mongocxx/v_noabi/mongocxx/model/write.cpp.o
@@ -1127,6 +1258,7 @@ lib/mongocxx/v_noabi/mongocxx/model/write.o: lib/mongocxx/v_noabi/mongocxx/model
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/model/write.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/write.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/write.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/write.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/model/write.i: lib/mongocxx/v_noabi/mongocxx/model/write.cpp.i
@@ -1135,6 +1267,7 @@ lib/mongocxx/v_noabi/mongocxx/model/write.i: lib/mongocxx/v_noabi/mongocxx/model
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/model/write.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/write.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/write.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/write.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/model/write.s: lib/mongocxx/v_noabi/mongocxx/model/write.cpp.s
@@ -1143,6 +1276,7 @@ lib/mongocxx/v_noabi/mongocxx/model/write.s: lib/mongocxx/v_noabi/mongocxx/model
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/model/write.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/model/write.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/model/write.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/model/write.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/aggregate.o: lib/mongocxx/v_noabi/mongocxx/options/aggregate.cpp.o
@@ -1151,6 +1285,7 @@ lib/mongocxx/v_noabi/mongocxx/options/aggregate.o: lib/mongocxx/v_noabi/mongocxx
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/aggregate.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/aggregate.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/aggregate.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/aggregate.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/aggregate.i: lib/mongocxx/v_noabi/mongocxx/options/aggregate.cpp.i
@@ -1159,6 +1294,7 @@ lib/mongocxx/v_noabi/mongocxx/options/aggregate.i: lib/mongocxx/v_noabi/mongocxx
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/aggregate.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/aggregate.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/aggregate.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/aggregate.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/aggregate.s: lib/mongocxx/v_noabi/mongocxx/options/aggregate.cpp.s
@@ -1167,6 +1303,7 @@ lib/mongocxx/v_noabi/mongocxx/options/aggregate.s: lib/mongocxx/v_noabi/mongocxx
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/aggregate.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/aggregate.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/aggregate.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/aggregate.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/apm.o: lib/mongocxx/v_noabi/mongocxx/options/apm.cpp.o
@@ -1175,6 +1312,7 @@ lib/mongocxx/v_noabi/mongocxx/options/apm.o: lib/mongocxx/v_noabi/mongocxx/optio
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/apm.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/apm.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/apm.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/apm.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/apm.i: lib/mongocxx/v_noabi/mongocxx/options/apm.cpp.i
@@ -1183,6 +1321,7 @@ lib/mongocxx/v_noabi/mongocxx/options/apm.i: lib/mongocxx/v_noabi/mongocxx/optio
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/apm.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/apm.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/apm.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/apm.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/apm.s: lib/mongocxx/v_noabi/mongocxx/options/apm.cpp.s
@@ -1191,6 +1330,7 @@ lib/mongocxx/v_noabi/mongocxx/options/apm.s: lib/mongocxx/v_noabi/mongocxx/optio
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/apm.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/apm.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/apm.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/apm.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.o: lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.cpp.o
@@ -1199,6 +1339,7 @@ lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.o: lib/mongocxx/v_noabi/mo
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.i: lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.cpp.i
@@ -1207,6 +1348,7 @@ lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.i: lib/mongocxx/v_noabi/mo
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.s: lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.cpp.s
@@ -1215,6 +1357,7 @@ lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.s: lib/mongocxx/v_noabi/mo
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/auto_encryption.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/bulk_write.o: lib/mongocxx/v_noabi/mongocxx/options/bulk_write.cpp.o
@@ -1223,6 +1366,7 @@ lib/mongocxx/v_noabi/mongocxx/options/bulk_write.o: lib/mongocxx/v_noabi/mongocx
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/bulk_write.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/bulk_write.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/bulk_write.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/bulk_write.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/bulk_write.i: lib/mongocxx/v_noabi/mongocxx/options/bulk_write.cpp.i
@@ -1231,6 +1375,7 @@ lib/mongocxx/v_noabi/mongocxx/options/bulk_write.i: lib/mongocxx/v_noabi/mongocx
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/bulk_write.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/bulk_write.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/bulk_write.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/bulk_write.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/bulk_write.s: lib/mongocxx/v_noabi/mongocxx/options/bulk_write.cpp.s
@@ -1239,6 +1384,7 @@ lib/mongocxx/v_noabi/mongocxx/options/bulk_write.s: lib/mongocxx/v_noabi/mongocx
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/bulk_write.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/bulk_write.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/bulk_write.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/bulk_write.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/change_stream.o: lib/mongocxx/v_noabi/mongocxx/options/change_stream.cpp.o
@@ -1247,6 +1393,7 @@ lib/mongocxx/v_noabi/mongocxx/options/change_stream.o: lib/mongocxx/v_noabi/mong
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/change_stream.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/change_stream.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/change_stream.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/change_stream.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/change_stream.i: lib/mongocxx/v_noabi/mongocxx/options/change_stream.cpp.i
@@ -1255,6 +1402,7 @@ lib/mongocxx/v_noabi/mongocxx/options/change_stream.i: lib/mongocxx/v_noabi/mong
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/change_stream.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/change_stream.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/change_stream.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/change_stream.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/change_stream.s: lib/mongocxx/v_noabi/mongocxx/options/change_stream.cpp.s
@@ -1263,6 +1411,7 @@ lib/mongocxx/v_noabi/mongocxx/options/change_stream.s: lib/mongocxx/v_noabi/mong
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/change_stream.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/change_stream.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/change_stream.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/change_stream.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/client.o: lib/mongocxx/v_noabi/mongocxx/options/client.cpp.o
@@ -1271,6 +1420,7 @@ lib/mongocxx/v_noabi/mongocxx/options/client.o: lib/mongocxx/v_noabi/mongocxx/op
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/client.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/client.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/client.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/client.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/client.i: lib/mongocxx/v_noabi/mongocxx/options/client.cpp.i
@@ -1279,6 +1429,7 @@ lib/mongocxx/v_noabi/mongocxx/options/client.i: lib/mongocxx/v_noabi/mongocxx/op
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/client.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/client.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/client.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/client.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/client.s: lib/mongocxx/v_noabi/mongocxx/options/client.cpp.s
@@ -1287,6 +1438,7 @@ lib/mongocxx/v_noabi/mongocxx/options/client.s: lib/mongocxx/v_noabi/mongocxx/op
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/client.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/client.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/client.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/client.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/client_encryption.o: lib/mongocxx/v_noabi/mongocxx/options/client_encryption.cpp.o
@@ -1295,6 +1447,7 @@ lib/mongocxx/v_noabi/mongocxx/options/client_encryption.o: lib/mongocxx/v_noabi/
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/client_encryption.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/client_encryption.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/client_encryption.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/client_encryption.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/client_encryption.i: lib/mongocxx/v_noabi/mongocxx/options/client_encryption.cpp.i
@@ -1303,6 +1456,7 @@ lib/mongocxx/v_noabi/mongocxx/options/client_encryption.i: lib/mongocxx/v_noabi/
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/client_encryption.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/client_encryption.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/client_encryption.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/client_encryption.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/client_encryption.s: lib/mongocxx/v_noabi/mongocxx/options/client_encryption.cpp.s
@@ -1311,6 +1465,7 @@ lib/mongocxx/v_noabi/mongocxx/options/client_encryption.s: lib/mongocxx/v_noabi/
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/client_encryption.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/client_encryption.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/client_encryption.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/client_encryption.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/client_session.o: lib/mongocxx/v_noabi/mongocxx/options/client_session.cpp.o
@@ -1319,6 +1474,7 @@ lib/mongocxx/v_noabi/mongocxx/options/client_session.o: lib/mongocxx/v_noabi/mon
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/client_session.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/client_session.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/client_session.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/client_session.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/client_session.i: lib/mongocxx/v_noabi/mongocxx/options/client_session.cpp.i
@@ -1327,6 +1483,7 @@ lib/mongocxx/v_noabi/mongocxx/options/client_session.i: lib/mongocxx/v_noabi/mon
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/client_session.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/client_session.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/client_session.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/client_session.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/client_session.s: lib/mongocxx/v_noabi/mongocxx/options/client_session.cpp.s
@@ -1335,6 +1492,7 @@ lib/mongocxx/v_noabi/mongocxx/options/client_session.s: lib/mongocxx/v_noabi/mon
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/client_session.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/client_session.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/client_session.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/client_session.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/count.o: lib/mongocxx/v_noabi/mongocxx/options/count.cpp.o
@@ -1343,6 +1501,7 @@ lib/mongocxx/v_noabi/mongocxx/options/count.o: lib/mongocxx/v_noabi/mongocxx/opt
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/count.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/count.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/count.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/count.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/count.i: lib/mongocxx/v_noabi/mongocxx/options/count.cpp.i
@@ -1351,6 +1510,7 @@ lib/mongocxx/v_noabi/mongocxx/options/count.i: lib/mongocxx/v_noabi/mongocxx/opt
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/count.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/count.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/count.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/count.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/count.s: lib/mongocxx/v_noabi/mongocxx/options/count.cpp.s
@@ -1359,6 +1519,7 @@ lib/mongocxx/v_noabi/mongocxx/options/count.s: lib/mongocxx/v_noabi/mongocxx/opt
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/count.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/count.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/count.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/count.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/create_collection.o: lib/mongocxx/v_noabi/mongocxx/options/create_collection.cpp.o
@@ -1367,6 +1528,7 @@ lib/mongocxx/v_noabi/mongocxx/options/create_collection.o: lib/mongocxx/v_noabi/
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/create_collection.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/create_collection.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/create_collection.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/create_collection.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/create_collection.i: lib/mongocxx/v_noabi/mongocxx/options/create_collection.cpp.i
@@ -1375,6 +1537,7 @@ lib/mongocxx/v_noabi/mongocxx/options/create_collection.i: lib/mongocxx/v_noabi/
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/create_collection.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/create_collection.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/create_collection.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/create_collection.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/create_collection.s: lib/mongocxx/v_noabi/mongocxx/options/create_collection.cpp.s
@@ -1383,6 +1546,7 @@ lib/mongocxx/v_noabi/mongocxx/options/create_collection.s: lib/mongocxx/v_noabi/
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/create_collection.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/create_collection.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/create_collection.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/create_collection.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/data_key.o: lib/mongocxx/v_noabi/mongocxx/options/data_key.cpp.o
@@ -1391,6 +1555,7 @@ lib/mongocxx/v_noabi/mongocxx/options/data_key.o: lib/mongocxx/v_noabi/mongocxx/
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/data_key.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/data_key.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/data_key.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/data_key.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/data_key.i: lib/mongocxx/v_noabi/mongocxx/options/data_key.cpp.i
@@ -1399,6 +1564,7 @@ lib/mongocxx/v_noabi/mongocxx/options/data_key.i: lib/mongocxx/v_noabi/mongocxx/
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/data_key.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/data_key.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/data_key.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/data_key.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/data_key.s: lib/mongocxx/v_noabi/mongocxx/options/data_key.cpp.s
@@ -1407,6 +1573,7 @@ lib/mongocxx/v_noabi/mongocxx/options/data_key.s: lib/mongocxx/v_noabi/mongocxx/
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/data_key.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/data_key.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/data_key.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/data_key.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/delete.o: lib/mongocxx/v_noabi/mongocxx/options/delete.cpp.o
@@ -1415,6 +1582,7 @@ lib/mongocxx/v_noabi/mongocxx/options/delete.o: lib/mongocxx/v_noabi/mongocxx/op
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/delete.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/delete.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/delete.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/delete.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/delete.i: lib/mongocxx/v_noabi/mongocxx/options/delete.cpp.i
@@ -1423,6 +1591,7 @@ lib/mongocxx/v_noabi/mongocxx/options/delete.i: lib/mongocxx/v_noabi/mongocxx/op
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/delete.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/delete.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/delete.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/delete.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/delete.s: lib/mongocxx/v_noabi/mongocxx/options/delete.cpp.s
@@ -1431,6 +1600,7 @@ lib/mongocxx/v_noabi/mongocxx/options/delete.s: lib/mongocxx/v_noabi/mongocxx/op
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/delete.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/delete.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/delete.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/delete.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/distinct.o: lib/mongocxx/v_noabi/mongocxx/options/distinct.cpp.o
@@ -1439,6 +1609,7 @@ lib/mongocxx/v_noabi/mongocxx/options/distinct.o: lib/mongocxx/v_noabi/mongocxx/
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/distinct.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/distinct.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/distinct.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/distinct.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/distinct.i: lib/mongocxx/v_noabi/mongocxx/options/distinct.cpp.i
@@ -1447,6 +1618,7 @@ lib/mongocxx/v_noabi/mongocxx/options/distinct.i: lib/mongocxx/v_noabi/mongocxx/
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/distinct.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/distinct.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/distinct.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/distinct.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/distinct.s: lib/mongocxx/v_noabi/mongocxx/options/distinct.cpp.s
@@ -1455,6 +1627,7 @@ lib/mongocxx/v_noabi/mongocxx/options/distinct.s: lib/mongocxx/v_noabi/mongocxx/
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/distinct.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/distinct.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/distinct.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/distinct.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/encrypt.o: lib/mongocxx/v_noabi/mongocxx/options/encrypt.cpp.o
@@ -1463,6 +1636,7 @@ lib/mongocxx/v_noabi/mongocxx/options/encrypt.o: lib/mongocxx/v_noabi/mongocxx/o
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/encrypt.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/encrypt.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/encrypt.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/encrypt.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/encrypt.i: lib/mongocxx/v_noabi/mongocxx/options/encrypt.cpp.i
@@ -1471,6 +1645,7 @@ lib/mongocxx/v_noabi/mongocxx/options/encrypt.i: lib/mongocxx/v_noabi/mongocxx/o
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/encrypt.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/encrypt.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/encrypt.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/encrypt.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/encrypt.s: lib/mongocxx/v_noabi/mongocxx/options/encrypt.cpp.s
@@ -1479,6 +1654,7 @@ lib/mongocxx/v_noabi/mongocxx/options/encrypt.s: lib/mongocxx/v_noabi/mongocxx/o
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/encrypt.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/encrypt.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/encrypt.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/encrypt.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.o: lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.cpp.o
@@ -1487,6 +1663,7 @@ lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.o: lib/mongocxx/v
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.i: lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.cpp.i
@@ -1495,6 +1672,7 @@ lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.i: lib/mongocxx/v
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.s: lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.cpp.s
@@ -1503,6 +1681,7 @@ lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.s: lib/mongocxx/v
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/estimated_document_count.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/find.o: lib/mongocxx/v_noabi/mongocxx/options/find.cpp.o
@@ -1511,6 +1690,7 @@ lib/mongocxx/v_noabi/mongocxx/options/find.o: lib/mongocxx/v_noabi/mongocxx/opti
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/find.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/find.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/find.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/find.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/find.i: lib/mongocxx/v_noabi/mongocxx/options/find.cpp.i
@@ -1519,6 +1699,7 @@ lib/mongocxx/v_noabi/mongocxx/options/find.i: lib/mongocxx/v_noabi/mongocxx/opti
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/find.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/find.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/find.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/find.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/find.s: lib/mongocxx/v_noabi/mongocxx/options/find.cpp.s
@@ -1527,6 +1708,7 @@ lib/mongocxx/v_noabi/mongocxx/options/find.s: lib/mongocxx/v_noabi/mongocxx/opti
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/find.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/find.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/find.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/find.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.o: lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.cpp.o
@@ -1535,6 +1717,7 @@ lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.o: lib/mongocxx/v_noab
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.i: lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.cpp.i
@@ -1543,6 +1726,7 @@ lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.i: lib/mongocxx/v_noab
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.s: lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.cpp.s
@@ -1551,6 +1735,7 @@ lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.s: lib/mongocxx/v_noab
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/find_one_and_delete.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.o: lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.cpp.o
@@ -1559,6 +1744,7 @@ lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.o: lib/mongocxx/v_noa
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.i: lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.cpp.i
@@ -1567,6 +1753,7 @@ lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.i: lib/mongocxx/v_noa
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.s: lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.cpp.s
@@ -1575,6 +1762,7 @@ lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.s: lib/mongocxx/v_noa
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/find_one_and_replace.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.o: lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.cpp.o
@@ -1583,6 +1771,7 @@ lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.o: lib/mongocxx/v_noab
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.i: lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.cpp.i
@@ -1591,6 +1780,7 @@ lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.i: lib/mongocxx/v_noab
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.s: lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.cpp.s
@@ -1599,6 +1789,7 @@ lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.s: lib/mongocxx/v_noab
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/find_one_and_update.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.o: lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.cpp.o
@@ -1607,6 +1798,7 @@ lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.o: lib/mongocxx/v_noabi/mong
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.i: lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.cpp.i
@@ -1615,6 +1807,7 @@ lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.i: lib/mongocxx/v_noabi/mong
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.s: lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.cpp.s
@@ -1623,6 +1816,7 @@ lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.s: lib/mongocxx/v_noabi/mong
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/gridfs/bucket.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.o: lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.cpp.o
@@ -1631,6 +1825,7 @@ lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.o: lib/mongocxx/v_noabi/mong
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.i: lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.cpp.i
@@ -1639,6 +1834,7 @@ lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.i: lib/mongocxx/v_noabi/mong
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.s: lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.cpp.s
@@ -1647,6 +1843,7 @@ lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.s: lib/mongocxx/v_noabi/mong
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/gridfs/upload.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/index.o: lib/mongocxx/v_noabi/mongocxx/options/index.cpp.o
@@ -1655,6 +1852,7 @@ lib/mongocxx/v_noabi/mongocxx/options/index.o: lib/mongocxx/v_noabi/mongocxx/opt
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/index.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/index.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/index.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/index.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/index.i: lib/mongocxx/v_noabi/mongocxx/options/index.cpp.i
@@ -1663,6 +1861,7 @@ lib/mongocxx/v_noabi/mongocxx/options/index.i: lib/mongocxx/v_noabi/mongocxx/opt
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/index.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/index.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/index.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/index.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/index.s: lib/mongocxx/v_noabi/mongocxx/options/index.cpp.s
@@ -1671,6 +1870,7 @@ lib/mongocxx/v_noabi/mongocxx/options/index.s: lib/mongocxx/v_noabi/mongocxx/opt
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/index.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/index.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/index.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/index.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/index_view.o: lib/mongocxx/v_noabi/mongocxx/options/index_view.cpp.o
@@ -1679,6 +1879,7 @@ lib/mongocxx/v_noabi/mongocxx/options/index_view.o: lib/mongocxx/v_noabi/mongocx
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/index_view.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/index_view.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/index_view.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/index_view.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/index_view.i: lib/mongocxx/v_noabi/mongocxx/options/index_view.cpp.i
@@ -1687,6 +1888,7 @@ lib/mongocxx/v_noabi/mongocxx/options/index_view.i: lib/mongocxx/v_noabi/mongocx
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/index_view.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/index_view.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/index_view.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/index_view.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/index_view.s: lib/mongocxx/v_noabi/mongocxx/options/index_view.cpp.s
@@ -1695,6 +1897,7 @@ lib/mongocxx/v_noabi/mongocxx/options/index_view.s: lib/mongocxx/v_noabi/mongocx
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/index_view.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/index_view.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/index_view.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/index_view.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/insert.o: lib/mongocxx/v_noabi/mongocxx/options/insert.cpp.o
@@ -1703,6 +1906,7 @@ lib/mongocxx/v_noabi/mongocxx/options/insert.o: lib/mongocxx/v_noabi/mongocxx/op
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/insert.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/insert.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/insert.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/insert.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/insert.i: lib/mongocxx/v_noabi/mongocxx/options/insert.cpp.i
@@ -1711,6 +1915,7 @@ lib/mongocxx/v_noabi/mongocxx/options/insert.i: lib/mongocxx/v_noabi/mongocxx/op
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/insert.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/insert.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/insert.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/insert.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/insert.s: lib/mongocxx/v_noabi/mongocxx/options/insert.cpp.s
@@ -1719,6 +1924,7 @@ lib/mongocxx/v_noabi/mongocxx/options/insert.s: lib/mongocxx/v_noabi/mongocxx/op
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/insert.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/insert.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/insert.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/insert.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/pool.o: lib/mongocxx/v_noabi/mongocxx/options/pool.cpp.o
@@ -1727,6 +1933,7 @@ lib/mongocxx/v_noabi/mongocxx/options/pool.o: lib/mongocxx/v_noabi/mongocxx/opti
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/pool.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/pool.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/pool.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/pool.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/pool.i: lib/mongocxx/v_noabi/mongocxx/options/pool.cpp.i
@@ -1735,6 +1942,7 @@ lib/mongocxx/v_noabi/mongocxx/options/pool.i: lib/mongocxx/v_noabi/mongocxx/opti
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/pool.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/pool.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/pool.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/pool.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/pool.s: lib/mongocxx/v_noabi/mongocxx/options/pool.cpp.s
@@ -1743,6 +1951,7 @@ lib/mongocxx/v_noabi/mongocxx/options/pool.s: lib/mongocxx/v_noabi/mongocxx/opti
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/pool.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/pool.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/pool.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/pool.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/range.o: lib/mongocxx/v_noabi/mongocxx/options/range.cpp.o
@@ -1751,6 +1960,7 @@ lib/mongocxx/v_noabi/mongocxx/options/range.o: lib/mongocxx/v_noabi/mongocxx/opt
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/range.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/range.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/range.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/range.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/range.i: lib/mongocxx/v_noabi/mongocxx/options/range.cpp.i
@@ -1759,6 +1969,7 @@ lib/mongocxx/v_noabi/mongocxx/options/range.i: lib/mongocxx/v_noabi/mongocxx/opt
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/range.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/range.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/range.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/range.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/range.s: lib/mongocxx/v_noabi/mongocxx/options/range.cpp.s
@@ -1767,6 +1978,7 @@ lib/mongocxx/v_noabi/mongocxx/options/range.s: lib/mongocxx/v_noabi/mongocxx/opt
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/range.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/range.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/range.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/range.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/replace.o: lib/mongocxx/v_noabi/mongocxx/options/replace.cpp.o
@@ -1775,6 +1987,7 @@ lib/mongocxx/v_noabi/mongocxx/options/replace.o: lib/mongocxx/v_noabi/mongocxx/o
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/replace.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/replace.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/replace.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/replace.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/replace.i: lib/mongocxx/v_noabi/mongocxx/options/replace.cpp.i
@@ -1783,6 +1996,7 @@ lib/mongocxx/v_noabi/mongocxx/options/replace.i: lib/mongocxx/v_noabi/mongocxx/o
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/replace.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/replace.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/replace.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/replace.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/replace.s: lib/mongocxx/v_noabi/mongocxx/options/replace.cpp.s
@@ -1791,6 +2005,7 @@ lib/mongocxx/v_noabi/mongocxx/options/replace.s: lib/mongocxx/v_noabi/mongocxx/o
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/replace.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/replace.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/replace.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/replace.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.o: lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.cpp.o
@@ -1799,6 +2014,7 @@ lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.o: lib/mongocxx/v_noab
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.i: lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.cpp.i
@@ -1807,6 +2023,7 @@ lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.i: lib/mongocxx/v_noab
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.s: lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.cpp.s
@@ -1815,6 +2032,7 @@ lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.s: lib/mongocxx/v_noab
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/rewrap_many_datakey.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/server_api.o: lib/mongocxx/v_noabi/mongocxx/options/server_api.cpp.o
@@ -1823,6 +2041,7 @@ lib/mongocxx/v_noabi/mongocxx/options/server_api.o: lib/mongocxx/v_noabi/mongocx
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/server_api.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/server_api.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/server_api.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/server_api.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/server_api.i: lib/mongocxx/v_noabi/mongocxx/options/server_api.cpp.i
@@ -1831,6 +2050,7 @@ lib/mongocxx/v_noabi/mongocxx/options/server_api.i: lib/mongocxx/v_noabi/mongocx
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/server_api.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/server_api.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/server_api.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/server_api.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/server_api.s: lib/mongocxx/v_noabi/mongocxx/options/server_api.cpp.s
@@ -1839,6 +2059,7 @@ lib/mongocxx/v_noabi/mongocxx/options/server_api.s: lib/mongocxx/v_noabi/mongocx
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/server_api.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/server_api.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/server_api.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/server_api.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/tls.o: lib/mongocxx/v_noabi/mongocxx/options/tls.cpp.o
@@ -1847,6 +2068,7 @@ lib/mongocxx/v_noabi/mongocxx/options/tls.o: lib/mongocxx/v_noabi/mongocxx/optio
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/tls.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/tls.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/tls.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/tls.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/tls.i: lib/mongocxx/v_noabi/mongocxx/options/tls.cpp.i
@@ -1855,6 +2077,7 @@ lib/mongocxx/v_noabi/mongocxx/options/tls.i: lib/mongocxx/v_noabi/mongocxx/optio
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/tls.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/tls.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/tls.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/tls.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/tls.s: lib/mongocxx/v_noabi/mongocxx/options/tls.cpp.s
@@ -1863,6 +2086,7 @@ lib/mongocxx/v_noabi/mongocxx/options/tls.s: lib/mongocxx/v_noabi/mongocxx/optio
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/tls.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/tls.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/tls.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/tls.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/transaction.o: lib/mongocxx/v_noabi/mongocxx/options/transaction.cpp.o
@@ -1871,6 +2095,7 @@ lib/mongocxx/v_noabi/mongocxx/options/transaction.o: lib/mongocxx/v_noabi/mongoc
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/transaction.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/transaction.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/transaction.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/transaction.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/transaction.i: lib/mongocxx/v_noabi/mongocxx/options/transaction.cpp.i
@@ -1879,6 +2104,7 @@ lib/mongocxx/v_noabi/mongocxx/options/transaction.i: lib/mongocxx/v_noabi/mongoc
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/transaction.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/transaction.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/transaction.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/transaction.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/transaction.s: lib/mongocxx/v_noabi/mongocxx/options/transaction.cpp.s
@@ -1887,6 +2113,7 @@ lib/mongocxx/v_noabi/mongocxx/options/transaction.s: lib/mongocxx/v_noabi/mongoc
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/transaction.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/transaction.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/transaction.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/transaction.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/options/update.o: lib/mongocxx/v_noabi/mongocxx/options/update.cpp.o
@@ -1895,6 +2122,7 @@ lib/mongocxx/v_noabi/mongocxx/options/update.o: lib/mongocxx/v_noabi/mongocxx/op
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/options/update.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/update.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/update.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/update.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/options/update.i: lib/mongocxx/v_noabi/mongocxx/options/update.cpp.i
@@ -1903,6 +2131,7 @@ lib/mongocxx/v_noabi/mongocxx/options/update.i: lib/mongocxx/v_noabi/mongocxx/op
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/options/update.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/update.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/update.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/update.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/options/update.s: lib/mongocxx/v_noabi/mongocxx/options/update.cpp.s
@@ -1911,6 +2140,7 @@ lib/mongocxx/v_noabi/mongocxx/options/update.s: lib/mongocxx/v_noabi/mongocxx/op
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/options/update.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/options/update.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/options/update.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/options/update.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/pipeline.o: lib/mongocxx/v_noabi/mongocxx/pipeline.cpp.o
@@ -1919,6 +2149,7 @@ lib/mongocxx/v_noabi/mongocxx/pipeline.o: lib/mongocxx/v_noabi/mongocxx/pipeline
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/pipeline.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/pipeline.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/pipeline.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/pipeline.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/pipeline.i: lib/mongocxx/v_noabi/mongocxx/pipeline.cpp.i
@@ -1927,6 +2158,7 @@ lib/mongocxx/v_noabi/mongocxx/pipeline.i: lib/mongocxx/v_noabi/mongocxx/pipeline
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/pipeline.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/pipeline.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/pipeline.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/pipeline.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/pipeline.s: lib/mongocxx/v_noabi/mongocxx/pipeline.cpp.s
@@ -1935,6 +2167,7 @@ lib/mongocxx/v_noabi/mongocxx/pipeline.s: lib/mongocxx/v_noabi/mongocxx/pipeline
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/pipeline.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/pipeline.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/pipeline.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/pipeline.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/pool.o: lib/mongocxx/v_noabi/mongocxx/pool.cpp.o
@@ -1943,6 +2176,7 @@ lib/mongocxx/v_noabi/mongocxx/pool.o: lib/mongocxx/v_noabi/mongocxx/pool.cpp.o
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/pool.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/pool.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/pool.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/pool.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/pool.i: lib/mongocxx/v_noabi/mongocxx/pool.cpp.i
@@ -1951,6 +2185,7 @@ lib/mongocxx/v_noabi/mongocxx/pool.i: lib/mongocxx/v_noabi/mongocxx/pool.cpp.i
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/pool.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/pool.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/pool.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/pool.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/pool.s: lib/mongocxx/v_noabi/mongocxx/pool.cpp.s
@@ -1959,6 +2194,7 @@ lib/mongocxx/v_noabi/mongocxx/pool.s: lib/mongocxx/v_noabi/mongocxx/pool.cpp.s
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/pool.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/pool.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/pool.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/pool.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/private/conversions.o: lib/mongocxx/v_noabi/mongocxx/private/conversions.cpp.o
@@ -1967,6 +2203,7 @@ lib/mongocxx/v_noabi/mongocxx/private/conversions.o: lib/mongocxx/v_noabi/mongoc
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/private/conversions.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/private/conversions.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/private/conversions.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/private/conversions.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/private/conversions.i: lib/mongocxx/v_noabi/mongocxx/private/conversions.cpp.i
@@ -1975,6 +2212,7 @@ lib/mongocxx/v_noabi/mongocxx/private/conversions.i: lib/mongocxx/v_noabi/mongoc
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/private/conversions.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/private/conversions.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/private/conversions.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/private/conversions.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/private/conversions.s: lib/mongocxx/v_noabi/mongocxx/private/conversions.cpp.s
@@ -1983,6 +2221,7 @@ lib/mongocxx/v_noabi/mongocxx/private/conversions.s: lib/mongocxx/v_noabi/mongoc
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/private/conversions.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/private/conversions.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/private/conversions.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/private/conversions.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/private/libbson.o: lib/mongocxx/v_noabi/mongocxx/private/libbson.cpp.o
@@ -1991,6 +2230,7 @@ lib/mongocxx/v_noabi/mongocxx/private/libbson.o: lib/mongocxx/v_noabi/mongocxx/p
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/private/libbson.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/private/libbson.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/private/libbson.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/private/libbson.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/private/libbson.i: lib/mongocxx/v_noabi/mongocxx/private/libbson.cpp.i
@@ -1999,6 +2239,7 @@ lib/mongocxx/v_noabi/mongocxx/private/libbson.i: lib/mongocxx/v_noabi/mongocxx/p
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/private/libbson.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/private/libbson.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/private/libbson.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/private/libbson.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/private/libbson.s: lib/mongocxx/v_noabi/mongocxx/private/libbson.cpp.s
@@ -2007,6 +2248,7 @@ lib/mongocxx/v_noabi/mongocxx/private/libbson.s: lib/mongocxx/v_noabi/mongocxx/p
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/private/libbson.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/private/libbson.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/private/libbson.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/private/libbson.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/private/libmongoc.o: lib/mongocxx/v_noabi/mongocxx/private/libmongoc.cpp.o
@@ -2015,6 +2257,7 @@ lib/mongocxx/v_noabi/mongocxx/private/libmongoc.o: lib/mongocxx/v_noabi/mongocxx
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/private/libmongoc.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/private/libmongoc.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/private/libmongoc.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/private/libmongoc.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/private/libmongoc.i: lib/mongocxx/v_noabi/mongocxx/private/libmongoc.cpp.i
@@ -2023,6 +2266,7 @@ lib/mongocxx/v_noabi/mongocxx/private/libmongoc.i: lib/mongocxx/v_noabi/mongocxx
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/private/libmongoc.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/private/libmongoc.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/private/libmongoc.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/private/libmongoc.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/private/libmongoc.s: lib/mongocxx/v_noabi/mongocxx/private/libmongoc.cpp.s
@@ -2031,6 +2275,7 @@ lib/mongocxx/v_noabi/mongocxx/private/libmongoc.s: lib/mongocxx/v_noabi/mongocxx
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/private/libmongoc.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/private/libmongoc.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/private/libmongoc.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/private/libmongoc.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.o: lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.cpp.o
@@ -2039,6 +2284,7 @@ lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.o: lib/mongocxx/v_noabi/mo
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.i: lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.cpp.i
@@ -2047,6 +2293,7 @@ lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.i: lib/mongocxx/v_noabi/mo
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.s: lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.cpp.s
@@ -2055,6 +2302,7 @@ lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.s: lib/mongocxx/v_noabi/mo
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/private/numeric_casting.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/read_concern.o: lib/mongocxx/v_noabi/mongocxx/read_concern.cpp.o
@@ -2063,6 +2311,7 @@ lib/mongocxx/v_noabi/mongocxx/read_concern.o: lib/mongocxx/v_noabi/mongocxx/read
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/read_concern.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/read_concern.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/read_concern.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/read_concern.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/read_concern.i: lib/mongocxx/v_noabi/mongocxx/read_concern.cpp.i
@@ -2071,6 +2320,7 @@ lib/mongocxx/v_noabi/mongocxx/read_concern.i: lib/mongocxx/v_noabi/mongocxx/read
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/read_concern.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/read_concern.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/read_concern.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/read_concern.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/read_concern.s: lib/mongocxx/v_noabi/mongocxx/read_concern.cpp.s
@@ -2079,6 +2329,7 @@ lib/mongocxx/v_noabi/mongocxx/read_concern.s: lib/mongocxx/v_noabi/mongocxx/read
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/read_concern.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/read_concern.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/read_concern.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/read_concern.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/read_preference.o: lib/mongocxx/v_noabi/mongocxx/read_preference.cpp.o
@@ -2087,6 +2338,7 @@ lib/mongocxx/v_noabi/mongocxx/read_preference.o: lib/mongocxx/v_noabi/mongocxx/r
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/read_preference.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/read_preference.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/read_preference.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/read_preference.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/read_preference.i: lib/mongocxx/v_noabi/mongocxx/read_preference.cpp.i
@@ -2095,6 +2347,7 @@ lib/mongocxx/v_noabi/mongocxx/read_preference.i: lib/mongocxx/v_noabi/mongocxx/r
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/read_preference.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/read_preference.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/read_preference.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/read_preference.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/read_preference.s: lib/mongocxx/v_noabi/mongocxx/read_preference.cpp.s
@@ -2103,6 +2356,7 @@ lib/mongocxx/v_noabi/mongocxx/read_preference.s: lib/mongocxx/v_noabi/mongocxx/r
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/read_preference.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/read_preference.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/read_preference.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/read_preference.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/result/bulk_write.o: lib/mongocxx/v_noabi/mongocxx/result/bulk_write.cpp.o
@@ -2111,6 +2365,7 @@ lib/mongocxx/v_noabi/mongocxx/result/bulk_write.o: lib/mongocxx/v_noabi/mongocxx
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/result/bulk_write.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/bulk_write.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/bulk_write.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/bulk_write.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/result/bulk_write.i: lib/mongocxx/v_noabi/mongocxx/result/bulk_write.cpp.i
@@ -2119,6 +2374,7 @@ lib/mongocxx/v_noabi/mongocxx/result/bulk_write.i: lib/mongocxx/v_noabi/mongocxx
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/result/bulk_write.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/bulk_write.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/bulk_write.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/bulk_write.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/result/bulk_write.s: lib/mongocxx/v_noabi/mongocxx/result/bulk_write.cpp.s
@@ -2127,6 +2383,7 @@ lib/mongocxx/v_noabi/mongocxx/result/bulk_write.s: lib/mongocxx/v_noabi/mongocxx
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/result/bulk_write.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/bulk_write.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/bulk_write.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/bulk_write.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/result/delete.o: lib/mongocxx/v_noabi/mongocxx/result/delete.cpp.o
@@ -2135,6 +2392,7 @@ lib/mongocxx/v_noabi/mongocxx/result/delete.o: lib/mongocxx/v_noabi/mongocxx/res
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/result/delete.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/delete.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/delete.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/delete.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/result/delete.i: lib/mongocxx/v_noabi/mongocxx/result/delete.cpp.i
@@ -2143,6 +2401,7 @@ lib/mongocxx/v_noabi/mongocxx/result/delete.i: lib/mongocxx/v_noabi/mongocxx/res
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/result/delete.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/delete.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/delete.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/delete.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/result/delete.s: lib/mongocxx/v_noabi/mongocxx/result/delete.cpp.s
@@ -2151,6 +2410,7 @@ lib/mongocxx/v_noabi/mongocxx/result/delete.s: lib/mongocxx/v_noabi/mongocxx/res
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/result/delete.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/delete.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/delete.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/delete.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.o: lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.cpp.o
@@ -2159,6 +2419,7 @@ lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.o: lib/mongocxx/v_noabi/mongo
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.i: lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.cpp.i
@@ -2167,6 +2428,7 @@ lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.i: lib/mongocxx/v_noabi/mongo
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.s: lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.cpp.s
@@ -2175,6 +2437,7 @@ lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.s: lib/mongocxx/v_noabi/mongo
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/gridfs/upload.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/result/insert_many.o: lib/mongocxx/v_noabi/mongocxx/result/insert_many.cpp.o
@@ -2183,6 +2446,7 @@ lib/mongocxx/v_noabi/mongocxx/result/insert_many.o: lib/mongocxx/v_noabi/mongocx
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/result/insert_many.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/insert_many.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/insert_many.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/insert_many.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/result/insert_many.i: lib/mongocxx/v_noabi/mongocxx/result/insert_many.cpp.i
@@ -2191,6 +2455,7 @@ lib/mongocxx/v_noabi/mongocxx/result/insert_many.i: lib/mongocxx/v_noabi/mongocx
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/result/insert_many.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/insert_many.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/insert_many.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/insert_many.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/result/insert_many.s: lib/mongocxx/v_noabi/mongocxx/result/insert_many.cpp.s
@@ -2199,6 +2464,7 @@ lib/mongocxx/v_noabi/mongocxx/result/insert_many.s: lib/mongocxx/v_noabi/mongocx
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/result/insert_many.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/insert_many.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/insert_many.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/insert_many.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/result/insert_one.o: lib/mongocxx/v_noabi/mongocxx/result/insert_one.cpp.o
@@ -2207,6 +2473,7 @@ lib/mongocxx/v_noabi/mongocxx/result/insert_one.o: lib/mongocxx/v_noabi/mongocxx
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/result/insert_one.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/insert_one.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/insert_one.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/insert_one.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/result/insert_one.i: lib/mongocxx/v_noabi/mongocxx/result/insert_one.cpp.i
@@ -2215,6 +2482,7 @@ lib/mongocxx/v_noabi/mongocxx/result/insert_one.i: lib/mongocxx/v_noabi/mongocxx
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/result/insert_one.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/insert_one.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/insert_one.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/insert_one.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/result/insert_one.s: lib/mongocxx/v_noabi/mongocxx/result/insert_one.cpp.s
@@ -2223,6 +2491,7 @@ lib/mongocxx/v_noabi/mongocxx/result/insert_one.s: lib/mongocxx/v_noabi/mongocxx
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/result/insert_one.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/insert_one.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/insert_one.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/insert_one.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/result/replace_one.o: lib/mongocxx/v_noabi/mongocxx/result/replace_one.cpp.o
@@ -2231,6 +2500,7 @@ lib/mongocxx/v_noabi/mongocxx/result/replace_one.o: lib/mongocxx/v_noabi/mongocx
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/result/replace_one.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/replace_one.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/replace_one.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/replace_one.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/result/replace_one.i: lib/mongocxx/v_noabi/mongocxx/result/replace_one.cpp.i
@@ -2239,6 +2509,7 @@ lib/mongocxx/v_noabi/mongocxx/result/replace_one.i: lib/mongocxx/v_noabi/mongocx
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/result/replace_one.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/replace_one.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/replace_one.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/replace_one.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/result/replace_one.s: lib/mongocxx/v_noabi/mongocxx/result/replace_one.cpp.s
@@ -2247,6 +2518,7 @@ lib/mongocxx/v_noabi/mongocxx/result/replace_one.s: lib/mongocxx/v_noabi/mongocx
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/result/replace_one.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/replace_one.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/replace_one.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/replace_one.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.o: lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.cpp.o
@@ -2255,6 +2527,7 @@ lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.o: lib/mongocxx/v_noabi
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.i: lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.cpp.i
@@ -2263,6 +2536,7 @@ lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.i: lib/mongocxx/v_noabi
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.s: lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.cpp.s
@@ -2271,6 +2545,7 @@ lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.s: lib/mongocxx/v_noabi
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/rewrap_many_datakey.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/result/update.o: lib/mongocxx/v_noabi/mongocxx/result/update.cpp.o
@@ -2279,6 +2554,7 @@ lib/mongocxx/v_noabi/mongocxx/result/update.o: lib/mongocxx/v_noabi/mongocxx/res
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/result/update.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/update.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/update.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/update.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/result/update.i: lib/mongocxx/v_noabi/mongocxx/result/update.cpp.i
@@ -2287,6 +2563,7 @@ lib/mongocxx/v_noabi/mongocxx/result/update.i: lib/mongocxx/v_noabi/mongocxx/res
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/result/update.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/update.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/update.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/update.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/result/update.s: lib/mongocxx/v_noabi/mongocxx/result/update.cpp.s
@@ -2295,6 +2572,7 @@ lib/mongocxx/v_noabi/mongocxx/result/update.s: lib/mongocxx/v_noabi/mongocxx/res
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/result/update.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/result/update.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/result/update.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/result/update.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/search_index_model.o: lib/mongocxx/v_noabi/mongocxx/search_index_model.cpp.o
@@ -2303,6 +2581,7 @@ lib/mongocxx/v_noabi/mongocxx/search_index_model.o: lib/mongocxx/v_noabi/mongocx
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/search_index_model.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/search_index_model.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/search_index_model.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/search_index_model.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/search_index_model.i: lib/mongocxx/v_noabi/mongocxx/search_index_model.cpp.i
@@ -2311,6 +2590,7 @@ lib/mongocxx/v_noabi/mongocxx/search_index_model.i: lib/mongocxx/v_noabi/mongocx
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/search_index_model.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/search_index_model.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/search_index_model.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/search_index_model.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/search_index_model.s: lib/mongocxx/v_noabi/mongocxx/search_index_model.cpp.s
@@ -2319,6 +2599,7 @@ lib/mongocxx/v_noabi/mongocxx/search_index_model.s: lib/mongocxx/v_noabi/mongocx
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/search_index_model.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/search_index_model.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/search_index_model.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/search_index_model.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/search_index_view.o: lib/mongocxx/v_noabi/mongocxx/search_index_view.cpp.o
@@ -2327,6 +2608,7 @@ lib/mongocxx/v_noabi/mongocxx/search_index_view.o: lib/mongocxx/v_noabi/mongocxx
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/search_index_view.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/search_index_view.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/search_index_view.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/search_index_view.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/search_index_view.i: lib/mongocxx/v_noabi/mongocxx/search_index_view.cpp.i
@@ -2335,6 +2617,7 @@ lib/mongocxx/v_noabi/mongocxx/search_index_view.i: lib/mongocxx/v_noabi/mongocxx
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/search_index_view.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/search_index_view.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/search_index_view.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/search_index_view.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/search_index_view.s: lib/mongocxx/v_noabi/mongocxx/search_index_view.cpp.s
@@ -2343,6 +2626,7 @@ lib/mongocxx/v_noabi/mongocxx/search_index_view.s: lib/mongocxx/v_noabi/mongocxx
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/search_index_view.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/search_index_view.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/search_index_view.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/search_index_view.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/uri.o: lib/mongocxx/v_noabi/mongocxx/uri.cpp.o
@@ -2351,6 +2635,7 @@ lib/mongocxx/v_noabi/mongocxx/uri.o: lib/mongocxx/v_noabi/mongocxx/uri.cpp.o
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/uri.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/uri.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/uri.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/uri.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/uri.i: lib/mongocxx/v_noabi/mongocxx/uri.cpp.i
@@ -2359,6 +2644,7 @@ lib/mongocxx/v_noabi/mongocxx/uri.i: lib/mongocxx/v_noabi/mongocxx/uri.cpp.i
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/uri.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/uri.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/uri.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/uri.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/uri.s: lib/mongocxx/v_noabi/mongocxx/uri.cpp.s
@@ -2367,6 +2653,7 @@ lib/mongocxx/v_noabi/mongocxx/uri.s: lib/mongocxx/v_noabi/mongocxx/uri.cpp.s
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/uri.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/uri.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/uri.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/uri.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/validation_criteria.o: lib/mongocxx/v_noabi/mongocxx/validation_criteria.cpp.o
@@ -2375,6 +2662,7 @@ lib/mongocxx/v_noabi/mongocxx/validation_criteria.o: lib/mongocxx/v_noabi/mongoc
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/validation_criteria.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/validation_criteria.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/validation_criteria.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/validation_criteria.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/validation_criteria.i: lib/mongocxx/v_noabi/mongocxx/validation_criteria.cpp.i
@@ -2383,6 +2671,7 @@ lib/mongocxx/v_noabi/mongocxx/validation_criteria.i: lib/mongocxx/v_noabi/mongoc
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/validation_criteria.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/validation_criteria.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/validation_criteria.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/validation_criteria.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/validation_criteria.s: lib/mongocxx/v_noabi/mongocxx/validation_criteria.cpp.s
@@ -2391,6 +2680,7 @@ lib/mongocxx/v_noabi/mongocxx/validation_criteria.s: lib/mongocxx/v_noabi/mongoc
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/validation_criteria.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/validation_criteria.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/validation_criteria.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/validation_criteria.cpp.s
 
 lib/mongocxx/v_noabi/mongocxx/write_concern.o: lib/mongocxx/v_noabi/mongocxx/write_concern.cpp.o
@@ -2399,6 +2689,7 @@ lib/mongocxx/v_noabi/mongocxx/write_concern.o: lib/mongocxx/v_noabi/mongocxx/wri
 # target to build an object file
 lib/mongocxx/v_noabi/mongocxx/write_concern.cpp.o:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/write_concern.cpp.o
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/write_concern.cpp.o
 .PHONY : lib/mongocxx/v_noabi/mongocxx/write_concern.cpp.o
 
 lib/mongocxx/v_noabi/mongocxx/write_concern.i: lib/mongocxx/v_noabi/mongocxx/write_concern.cpp.i
@@ -2407,6 +2698,7 @@ lib/mongocxx/v_noabi/mongocxx/write_concern.i: lib/mongocxx/v_noabi/mongocxx/wri
 # target to preprocess a source file
 lib/mongocxx/v_noabi/mongocxx/write_concern.cpp.i:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/write_concern.cpp.i
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/write_concern.cpp.i
 .PHONY : lib/mongocxx/v_noabi/mongocxx/write_concern.cpp.i
 
 lib/mongocxx/v_noabi/mongocxx/write_concern.s: lib/mongocxx/v_noabi/mongocxx/write_concern.cpp.s
@@ -2415,6 +2707,7 @@ lib/mongocxx/v_noabi/mongocxx/write_concern.s: lib/mongocxx/v_noabi/mongocxx/wri
 # target to generate assembly for a file
 lib/mongocxx/v_noabi/mongocxx/write_concern.cpp.s:
 	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/lib/mongocxx/v_noabi/mongocxx/write_concern.cpp.s
+	cd /home/srokadia/open/mongo-cxx-driver-r3.10.1/build && $(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/lib/mongocxx/v_noabi/mongocxx/write_concern.cpp.s
 .PHONY : lib/mongocxx/v_noabi/mongocxx/write_concern.cpp.s
 
 # Help Target
@@ -2431,6 +2724,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... mongocxx_shared"
+	@echo "... mongocxx_static"
 	@echo "... lib/mongocxx/v_noabi/mongocxx/bulk_write.o"
 	@echo "... lib/mongocxx/v_noabi/mongocxx/bulk_write.i"
 	@echo "... lib/mongocxx/v_noabi/mongocxx/bulk_write.s"

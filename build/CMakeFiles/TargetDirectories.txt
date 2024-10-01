@@ -25,6 +25,7 @@
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/CMakeFiles/install/local.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/CMakeFiles/install/strip.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx/CMakeFiles/bsoncxx_shared.dir
+/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx/CMakeFiles/bsoncxx_static.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx/CMakeFiles/test.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx/CMakeFiles/edit_cache.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx/CMakeFiles/rebuild_cache.dir
@@ -54,6 +55,7 @@
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx/third_party/CMakeFiles/install/local.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx/third_party/CMakeFiles/install/strip.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_shared-pc.dir
+/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx/cmake/CMakeFiles/test.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx/cmake/CMakeFiles/edit_cache.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx/cmake/CMakeFiles/rebuild_cache.dir
@@ -72,6 +74,7 @@
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx/test/CMakeFiles/install/local.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx/test/CMakeFiles/install/strip.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/mongocxx/CMakeFiles/mongocxx_shared.dir
+/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/mongocxx/CMakeFiles/mongocxx_static.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/mongocxx/CMakeFiles/test.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/mongocxx/CMakeFiles/edit_cache.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/mongocxx/CMakeFiles/rebuild_cache.dir
@@ -94,6 +97,7 @@
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/mongocxx/lib/CMakeFiles/install/local.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/mongocxx/lib/CMakeFiles/install/strip.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_shared-pc.dir
+/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/mongocxx/cmake/CMakeFiles/test.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/mongocxx/cmake/CMakeFiles/edit_cache.dir
 /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/mongocxx/cmake/CMakeFiles/rebuild_cache.dir

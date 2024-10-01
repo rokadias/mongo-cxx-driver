@@ -405,6 +405,7 @@ src/clean: src/mongocxx/clean
 
 # Recursive "all" directory target.
 src/bsoncxx/all: src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/all
+src/bsoncxx/all: src/bsoncxx/CMakeFiles/bsoncxx_static.dir/all
 src/bsoncxx/all: src/bsoncxx/include/all
 src/bsoncxx/all: src/bsoncxx/lib/all
 src/bsoncxx/all: src/bsoncxx/third_party/all
@@ -420,6 +421,7 @@ src/bsoncxx/preinstall: src/bsoncxx/cmake/preinstall
 
 # Recursive "clean" directory target.
 src/bsoncxx/clean: src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/clean
+src/bsoncxx/clean: src/bsoncxx/CMakeFiles/bsoncxx_static.dir/clean
 src/bsoncxx/clean: src/bsoncxx/include/clean
 src/bsoncxx/clean: src/bsoncxx/lib/clean
 src/bsoncxx/clean: src/bsoncxx/third_party/clean
@@ -440,6 +442,7 @@ src/bsoncxx/cmake/preinstall:
 
 # Recursive "clean" directory target.
 src/bsoncxx/cmake/clean: src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_shared-pc.dir/clean
+src/bsoncxx/cmake/clean: src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/clean
 .PHONY : src/bsoncxx/cmake/clean
 
 #=============================================================================
@@ -510,6 +513,7 @@ src/bsoncxx/third_party/clean:
 
 # Recursive "all" directory target.
 src/mongocxx/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
+src/mongocxx/all: src/mongocxx/CMakeFiles/mongocxx_static.dir/all
 src/mongocxx/all: src/mongocxx/include/all
 src/mongocxx/all: src/mongocxx/lib/all
 src/mongocxx/all: src/mongocxx/cmake/all
@@ -523,6 +527,7 @@ src/mongocxx/preinstall: src/mongocxx/cmake/preinstall
 
 # Recursive "clean" directory target.
 src/mongocxx/clean: src/mongocxx/CMakeFiles/mongocxx_shared.dir/clean
+src/mongocxx/clean: src/mongocxx/CMakeFiles/mongocxx_static.dir/clean
 src/mongocxx/clean: src/mongocxx/include/clean
 src/mongocxx/clean: src/mongocxx/lib/clean
 src/mongocxx/clean: src/mongocxx/cmake/clean
@@ -542,6 +547,7 @@ src/mongocxx/cmake/preinstall:
 
 # Recursive "clean" directory target.
 src/mongocxx/cmake/clean: src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_shared-pc.dir/clean
+src/mongocxx/cmake/clean: src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/clean
 .PHONY : src/mongocxx/cmake/clean
 
 #=============================================================================
@@ -956,6 +962,32 @@ src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/clean:
 .PHONY : src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/clean
 
 #=============================================================================
+# Target rules for target src/bsoncxx/CMakeFiles/bsoncxx_static.dir
+
+# All Build rule for target.
+src/bsoncxx/CMakeFiles/bsoncxx_static.dir/all: src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/all
+	$(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=5,6,7 "Built target bsoncxx_static"
+.PHONY : src/bsoncxx/CMakeFiles/bsoncxx_static.dir/all
+
+# Build rule for subdir invocation for target.
+src/bsoncxx/CMakeFiles/bsoncxx_static.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/bsoncxx/CMakeFiles/bsoncxx_static.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
+.PHONY : src/bsoncxx/CMakeFiles/bsoncxx_static.dir/rule
+
+# Convenience name for target.
+bsoncxx_static: src/bsoncxx/CMakeFiles/bsoncxx_static.dir/rule
+.PHONY : bsoncxx_static
+
+# clean rule for target.
+src/bsoncxx/CMakeFiles/bsoncxx_static.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/bsoncxx/CMakeFiles/bsoncxx_static.dir/build.make src/bsoncxx/CMakeFiles/bsoncxx_static.dir/clean
+.PHONY : src/bsoncxx/CMakeFiles/bsoncxx_static.dir/clean
+
+#=============================================================================
 # Target rules for target src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_shared-pc.dir
 
 # All Build rule for target.
@@ -982,18 +1014,44 @@ src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_shared-pc.dir/clean:
 .PHONY : src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_shared-pc.dir/clean
 
 #=============================================================================
+# Target rules for target src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir
+
+# All Build rule for target.
+src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/build.make src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/build.make src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target generate-libbsoncxx_static-pc"
+.PHONY : src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/all
+
+# Build rule for subdir invocation for target.
+src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
+.PHONY : src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/rule
+
+# Convenience name for target.
+generate-libbsoncxx_static-pc: src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/rule
+.PHONY : generate-libbsoncxx_static-pc
+
+# clean rule for target.
+src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/build.make src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/clean
+.PHONY : src/bsoncxx/cmake/CMakeFiles/generate-libbsoncxx_static-pc.dir/clean
+
+#=============================================================================
 # Target rules for target src/bsoncxx/test/CMakeFiles/bsoncxx_testing.dir
 
 # All Build rule for target.
 src/bsoncxx/test/CMakeFiles/bsoncxx_testing.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/bsoncxx/test/CMakeFiles/bsoncxx_testing.dir/build.make src/bsoncxx/test/CMakeFiles/bsoncxx_testing.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/bsoncxx/test/CMakeFiles/bsoncxx_testing.dir/build.make src/bsoncxx/test/CMakeFiles/bsoncxx_testing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=6,7,8,9 "Built target bsoncxx_testing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=8,9,10 "Built target bsoncxx_testing"
 .PHONY : src/bsoncxx/test/CMakeFiles/bsoncxx_testing.dir/all
 
 # Build rule for subdir invocation for target.
 src/bsoncxx/test/CMakeFiles/bsoncxx_testing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/bsoncxx/test/CMakeFiles/bsoncxx_testing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/bsoncxx/test/CMakeFiles/bsoncxx_testing.dir/rule
@@ -1015,12 +1073,12 @@ src/bsoncxx/test/CMakeFiles/test_bson.dir/all: src/bsoncxx/test/CMakeFiles/bsonc
 src/bsoncxx/test/CMakeFiles/test_bson.dir/all: src/bsoncxx/test/CMakeFiles/bsoncxx_test_properties_with_main.dir/all
 	$(MAKE) $(MAKESILENT) -f src/bsoncxx/test/CMakeFiles/test_bson.dir/build.make src/bsoncxx/test/CMakeFiles/test_bson.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/bsoncxx/test/CMakeFiles/test_bson.dir/build.make src/bsoncxx/test/CMakeFiles/test_bson.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=64,65,66 "Built target test_bson"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=71,72,73 "Built target test_bson"
 .PHONY : src/bsoncxx/test/CMakeFiles/test_bson.dir/all
 
 # Build rule for subdir invocation for target.
 src/bsoncxx/test/CMakeFiles/test_bson.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/bsoncxx/test/CMakeFiles/test_bson.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/bsoncxx/test/CMakeFiles/test_bson.dir/rule
@@ -1041,12 +1099,12 @@ src/bsoncxx/test/CMakeFiles/test_bson.dir/clean:
 src/bsoncxx/test/CMakeFiles/bsoncxx_test_properties_with_main.dir/all: src/bsoncxx/test/CMakeFiles/bsoncxx_testing.dir/all
 	$(MAKE) $(MAKESILENT) -f src/bsoncxx/test/CMakeFiles/bsoncxx_test_properties_with_main.dir/build.make src/bsoncxx/test/CMakeFiles/bsoncxx_test_properties_with_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/bsoncxx/test/CMakeFiles/bsoncxx_test_properties_with_main.dir/build.make src/bsoncxx/test/CMakeFiles/bsoncxx_test_properties_with_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=5 "Built target bsoncxx_test_properties_with_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target bsoncxx_test_properties_with_main"
 .PHONY : src/bsoncxx/test/CMakeFiles/bsoncxx_test_properties_with_main.dir/all
 
 # Build rule for subdir invocation for target.
 src/bsoncxx/test/CMakeFiles/bsoncxx_test_properties_with_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/bsoncxx/test/CMakeFiles/bsoncxx_test_properties_with_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/bsoncxx/test/CMakeFiles/bsoncxx_test_properties_with_main.dir/rule
@@ -1068,12 +1126,12 @@ src/mongocxx/CMakeFiles/mongocxx_shared.dir/all: src/bsoncxx/CMakeFiles/bsoncxx_
 src/mongocxx/CMakeFiles/mongocxx_shared.dir/all: src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_shared-pc.dir/all
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59 "Built target mongocxx_shared"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51 "Built target mongocxx_shared"
 .PHONY : src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 
 # Build rule for subdir invocation for target.
 src/mongocxx/CMakeFiles/mongocxx_shared.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/mongocxx/CMakeFiles/mongocxx_shared.dir/rule
@@ -1086,6 +1144,33 @@ mongocxx_shared: src/mongocxx/CMakeFiles/mongocxx_shared.dir/rule
 src/mongocxx/CMakeFiles/mongocxx_shared.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_shared.dir/build.make src/mongocxx/CMakeFiles/mongocxx_shared.dir/clean
 .PHONY : src/mongocxx/CMakeFiles/mongocxx_shared.dir/clean
+
+#=============================================================================
+# Target rules for target src/mongocxx/CMakeFiles/mongocxx_static.dir
+
+# All Build rule for target.
+src/mongocxx/CMakeFiles/mongocxx_static.dir/all: src/bsoncxx/CMakeFiles/bsoncxx_static.dir/all
+src/mongocxx/CMakeFiles/mongocxx_static.dir/all: src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/all
+	$(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67 "Built target mongocxx_static"
+.PHONY : src/mongocxx/CMakeFiles/mongocxx_static.dir/all
+
+# Build rule for subdir invocation for target.
+src/mongocxx/CMakeFiles/mongocxx_static.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/CMakeFiles/mongocxx_static.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
+.PHONY : src/mongocxx/CMakeFiles/mongocxx_static.dir/rule
+
+# Convenience name for target.
+mongocxx_static: src/mongocxx/CMakeFiles/mongocxx_static.dir/rule
+.PHONY : mongocxx_static
+
+# clean rule for target.
+src/mongocxx/CMakeFiles/mongocxx_static.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/mongocxx/CMakeFiles/mongocxx_static.dir/build.make src/mongocxx/CMakeFiles/mongocxx_static.dir/clean
+.PHONY : src/mongocxx/CMakeFiles/mongocxx_static.dir/clean
 
 #=============================================================================
 # Target rules for target src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_shared-pc.dir
@@ -1114,18 +1199,44 @@ src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_shared-pc.dir/clean:
 .PHONY : src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_shared-pc.dir/clean
 
 #=============================================================================
+# Target rules for target src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir
+
+# All Build rule for target.
+src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/build.make src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/build.make src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target generate-libmongocxx_static-pc"
+.PHONY : src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/all
+
+# Build rule for subdir invocation for target.
+src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
+.PHONY : src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/rule
+
+# Convenience name for target.
+generate-libmongocxx_static-pc: src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/rule
+.PHONY : generate-libmongocxx_static-pc
+
+# clean rule for target.
+src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/build.make src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/clean
+.PHONY : src/mongocxx/cmake/CMakeFiles/generate-libmongocxx_static-pc.dir/clean
+
+#=============================================================================
 # Target rules for target src/mongocxx/test/CMakeFiles/mongocxx_mocked.dir
 
 # All Build rule for target.
 src/mongocxx/test/CMakeFiles/mongocxx_mocked.dir/all: src/bsoncxx/test/CMakeFiles/bsoncxx_testing.dir/all
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/mongocxx_mocked.dir/build.make src/mongocxx/test/CMakeFiles/mongocxx_mocked.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/mongocxx_mocked.dir/build.make src/mongocxx/test/CMakeFiles/mongocxx_mocked.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target mongocxx_mocked"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30,31,32,33,34,35 "Built target mongocxx_mocked"
 .PHONY : src/mongocxx/test/CMakeFiles/mongocxx_mocked.dir/all
 
 # Build rule for subdir invocation for target.
 src/mongocxx/test/CMakeFiles/mongocxx_mocked.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/test/CMakeFiles/mongocxx_mocked.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/mongocxx/test/CMakeFiles/mongocxx_mocked.dir/rule
@@ -1148,12 +1259,12 @@ src/mongocxx/test/CMakeFiles/test_driver.dir/all: src/mongocxx/test/CMakeFiles/m
 src/mongocxx/test/CMakeFiles/test_driver.dir/all: src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/all
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_driver.dir/build.make src/mongocxx/test/CMakeFiles/test_driver.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_driver.dir/build.make src/mongocxx/test/CMakeFiles/test_driver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=72,73,74,75,76,77,78,79,80,81,82,83,84 "Built target test_driver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=78,79,80,81,82,83,84,85,86,87 "Built target test_driver"
 .PHONY : src/mongocxx/test/CMakeFiles/test_driver.dir/all
 
 # Build rule for subdir invocation for target.
 src/mongocxx/test/CMakeFiles/test_driver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 38
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/test/CMakeFiles/test_driver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/mongocxx/test/CMakeFiles/test_driver.dir/rule
@@ -1176,12 +1287,12 @@ src/mongocxx/test/CMakeFiles/test_logging.dir/all: src/mongocxx/test/CMakeFiles/
 src/mongocxx/test/CMakeFiles/test_logging.dir/all: src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/all
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_logging.dir/build.make src/mongocxx/test/CMakeFiles/test_logging.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_logging.dir/build.make src/mongocxx/test/CMakeFiles/test_logging.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=87 "Built target test_logging"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target test_logging"
 .PHONY : src/mongocxx/test/CMakeFiles/test_logging.dir/all
 
 # Build rule for subdir invocation for target.
 src/mongocxx/test/CMakeFiles/test_logging.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/test/CMakeFiles/test_logging.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/mongocxx/test/CMakeFiles/test_logging.dir/rule
@@ -1209,7 +1320,7 @@ src/mongocxx/test/CMakeFiles/test_instance.dir/all: src/mongocxx/test/CMakeFiles
 
 # Build rule for subdir invocation for target.
 src/mongocxx/test/CMakeFiles/test_instance.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/test/CMakeFiles/test_instance.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/mongocxx/test/CMakeFiles/test_instance.dir/rule
@@ -1232,12 +1343,12 @@ src/mongocxx/test/CMakeFiles/test_crud_specs.dir/all: src/mongocxx/test/CMakeFil
 src/mongocxx/test/CMakeFiles/test_crud_specs.dir/all: src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/all
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_crud_specs.dir/build.make src/mongocxx/test/CMakeFiles/test_crud_specs.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_crud_specs.dir/build.make src/mongocxx/test/CMakeFiles/test_crud_specs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=71 "Built target test_crud_specs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=76,77 "Built target test_crud_specs"
 .PHONY : src/mongocxx/test/CMakeFiles/test_crud_specs.dir/all
 
 # Build rule for subdir invocation for target.
 src/mongocxx/test/CMakeFiles/test_crud_specs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/test/CMakeFiles/test_crud_specs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/mongocxx/test/CMakeFiles/test_crud_specs.dir/rule
@@ -1260,12 +1371,12 @@ src/mongocxx/test/CMakeFiles/test_gridfs_specs.dir/all: src/mongocxx/test/CMakeF
 src/mongocxx/test/CMakeFiles/test_gridfs_specs.dir/all: src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/all
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_gridfs_specs.dir/build.make src/mongocxx/test/CMakeFiles/test_gridfs_specs.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_gridfs_specs.dir/build.make src/mongocxx/test/CMakeFiles/test_gridfs_specs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=85,86 "Built target test_gridfs_specs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=88,89 "Built target test_gridfs_specs"
 .PHONY : src/mongocxx/test/CMakeFiles/test_gridfs_specs.dir/all
 
 # Build rule for subdir invocation for target.
 src/mongocxx/test/CMakeFiles/test_gridfs_specs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/test/CMakeFiles/test_gridfs_specs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/mongocxx/test/CMakeFiles/test_gridfs_specs.dir/rule
@@ -1288,12 +1399,12 @@ src/mongocxx/test/CMakeFiles/test_client_side_encryption_specs.dir/all: src/mong
 src/mongocxx/test/CMakeFiles/test_client_side_encryption_specs.dir/all: src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/all
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_client_side_encryption_specs.dir/build.make src/mongocxx/test/CMakeFiles/test_client_side_encryption_specs.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_client_side_encryption_specs.dir/build.make src/mongocxx/test/CMakeFiles/test_client_side_encryption_specs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=67,68 "Built target test_client_side_encryption_specs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=74 "Built target test_client_side_encryption_specs"
 .PHONY : src/mongocxx/test/CMakeFiles/test_client_side_encryption_specs.dir/all
 
 # Build rule for subdir invocation for target.
 src/mongocxx/test/CMakeFiles/test_client_side_encryption_specs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/test/CMakeFiles/test_client_side_encryption_specs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/mongocxx/test/CMakeFiles/test_client_side_encryption_specs.dir/rule
@@ -1316,12 +1427,12 @@ src/mongocxx/test/CMakeFiles/test_command_monitoring_specs.dir/all: src/mongocxx
 src/mongocxx/test/CMakeFiles/test_command_monitoring_specs.dir/all: src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/all
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_command_monitoring_specs.dir/build.make src/mongocxx/test/CMakeFiles/test_command_monitoring_specs.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_command_monitoring_specs.dir/build.make src/mongocxx/test/CMakeFiles/test_command_monitoring_specs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=69,70 "Built target test_command_monitoring_specs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=75 "Built target test_command_monitoring_specs"
 .PHONY : src/mongocxx/test/CMakeFiles/test_command_monitoring_specs.dir/all
 
 # Build rule for subdir invocation for target.
 src/mongocxx/test/CMakeFiles/test_command_monitoring_specs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/test/CMakeFiles/test_command_monitoring_specs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/mongocxx/test/CMakeFiles/test_command_monitoring_specs.dir/rule
@@ -1344,12 +1455,12 @@ src/mongocxx/test/CMakeFiles/test_transactions_specs.dir/all: src/mongocxx/test/
 src/mongocxx/test/CMakeFiles/test_transactions_specs.dir/all: src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/all
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_transactions_specs.dir/build.make src/mongocxx/test/CMakeFiles/test_transactions_specs.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_transactions_specs.dir/build.make src/mongocxx/test/CMakeFiles/test_transactions_specs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=93 "Built target test_transactions_specs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=94,95 "Built target test_transactions_specs"
 .PHONY : src/mongocxx/test/CMakeFiles/test_transactions_specs.dir/all
 
 # Build rule for subdir invocation for target.
 src/mongocxx/test/CMakeFiles/test_transactions_specs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/test/CMakeFiles/test_transactions_specs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/mongocxx/test/CMakeFiles/test_transactions_specs.dir/rule
@@ -1372,12 +1483,12 @@ src/mongocxx/test/CMakeFiles/test_retryable_reads_specs.dir/all: src/mongocxx/te
 src/mongocxx/test/CMakeFiles/test_retryable_reads_specs.dir/all: src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/all
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_retryable_reads_specs.dir/build.make src/mongocxx/test/CMakeFiles/test_retryable_reads_specs.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_retryable_reads_specs.dir/build.make src/mongocxx/test/CMakeFiles/test_retryable_reads_specs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=91,92 "Built target test_retryable_reads_specs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=93 "Built target test_retryable_reads_specs"
 .PHONY : src/mongocxx/test/CMakeFiles/test_retryable_reads_specs.dir/all
 
 # Build rule for subdir invocation for target.
 src/mongocxx/test/CMakeFiles/test_retryable_reads_specs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/test/CMakeFiles/test_retryable_reads_specs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/mongocxx/test/CMakeFiles/test_retryable_reads_specs.dir/rule
@@ -1400,12 +1511,12 @@ src/mongocxx/test/CMakeFiles/test_read_write_concern_specs.dir/all: src/mongocxx
 src/mongocxx/test/CMakeFiles/test_read_write_concern_specs.dir/all: src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/all
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_read_write_concern_specs.dir/build.make src/mongocxx/test/CMakeFiles/test_read_write_concern_specs.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_read_write_concern_specs.dir/build.make src/mongocxx/test/CMakeFiles/test_read_write_concern_specs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=89,90 "Built target test_read_write_concern_specs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=92 "Built target test_read_write_concern_specs"
 .PHONY : src/mongocxx/test/CMakeFiles/test_read_write_concern_specs.dir/all
 
 # Build rule for subdir invocation for target.
 src/mongocxx/test/CMakeFiles/test_read_write_concern_specs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/test/CMakeFiles/test_read_write_concern_specs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/mongocxx/test/CMakeFiles/test_read_write_concern_specs.dir/rule
@@ -1428,12 +1539,12 @@ src/mongocxx/test/CMakeFiles/test_mongohouse_specs.dir/all: src/mongocxx/test/CM
 src/mongocxx/test/CMakeFiles/test_mongohouse_specs.dir/all: src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/all
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_mongohouse_specs.dir/build.make src/mongocxx/test/CMakeFiles/test_mongohouse_specs.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_mongohouse_specs.dir/build.make src/mongocxx/test/CMakeFiles/test_mongohouse_specs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=88 "Built target test_mongohouse_specs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=90,91 "Built target test_mongohouse_specs"
 .PHONY : src/mongocxx/test/CMakeFiles/test_mongohouse_specs.dir/all
 
 # Build rule for subdir invocation for target.
 src/mongocxx/test/CMakeFiles/test_mongohouse_specs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/test/CMakeFiles/test_mongohouse_specs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/mongocxx/test/CMakeFiles/test_mongohouse_specs.dir/rule
@@ -1456,12 +1567,12 @@ src/mongocxx/test/CMakeFiles/test_unified_format_spec.dir/all: src/mongocxx/test
 src/mongocxx/test/CMakeFiles/test_unified_format_spec.dir/all: src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/all
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_unified_format_spec.dir/build.make src/mongocxx/test/CMakeFiles/test_unified_format_spec.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_unified_format_spec.dir/build.make src/mongocxx/test/CMakeFiles/test_unified_format_spec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=94,95 "Built target test_unified_format_spec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=96 "Built target test_unified_format_spec"
 .PHONY : src/mongocxx/test/CMakeFiles/test_unified_format_spec.dir/all
 
 # Build rule for subdir invocation for target.
 src/mongocxx/test/CMakeFiles/test_unified_format_spec.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/test/CMakeFiles/test_unified_format_spec.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/mongocxx/test/CMakeFiles/test_unified_format_spec.dir/rule
@@ -1484,12 +1595,12 @@ src/mongocxx/test/CMakeFiles/test_versioned_api.dir/all: src/mongocxx/test/CMake
 src/mongocxx/test/CMakeFiles/test_versioned_api.dir/all: src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/all
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_versioned_api.dir/build.make src/mongocxx/test/CMakeFiles/test_versioned_api.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/test_versioned_api.dir/build.make src/mongocxx/test/CMakeFiles/test_versioned_api.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=96,97 "Built target test_versioned_api"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=97 "Built target test_versioned_api"
 .PHONY : src/mongocxx/test/CMakeFiles/test_versioned_api.dir/all
 
 # Build rule for subdir invocation for target.
 src/mongocxx/test/CMakeFiles/test_versioned_api.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/test/CMakeFiles/test_versioned_api.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/mongocxx/test/CMakeFiles/test_versioned_api.dir/rule
@@ -1511,12 +1622,12 @@ src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/all: src/bso
 src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/all: src/mongocxx/test/CMakeFiles/mongocxx_mocked.dir/all
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/build.make src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/build.make src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=60 "Built target mongocxx_test_properties_with_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target mongocxx_test_properties_with_main"
 .PHONY : src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/all
 
 # Build rule for subdir invocation for target.
 src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : src/mongocxx/test/CMakeFiles/mongocxx_test_properties_with_main.dir/rule
@@ -1581,7 +1692,7 @@ examples/CMakeFiles/examples.dir/all: examples/mongocxx/CMakeFiles/pool.dir/all
 
 # Build rule for subdir invocation for target.
 examples/CMakeFiles/examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 39
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/examples.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/CMakeFiles/examples.dir/rule
@@ -1639,7 +1750,7 @@ examples/CMakeFiles/run-examples.dir/all: examples/mongocxx/CMakeFiles/pool.dir/
 
 # Build rule for subdir invocation for target.
 examples/CMakeFiles/run-examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 39
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/run-examples.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/CMakeFiles/run-examples.dir/rule
@@ -1660,12 +1771,12 @@ examples/CMakeFiles/run-examples.dir/clean:
 examples/bsoncxx/CMakeFiles/builder_core.dir/all: src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/bsoncxx/CMakeFiles/builder_core.dir/build.make examples/bsoncxx/CMakeFiles/builder_core.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/bsoncxx/CMakeFiles/builder_core.dir/build.make examples/bsoncxx/CMakeFiles/builder_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target builder_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=11 "Built target builder_core"
 .PHONY : examples/bsoncxx/CMakeFiles/builder_core.dir/all
 
 # Build rule for subdir invocation for target.
 examples/bsoncxx/CMakeFiles/builder_core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/bsoncxx/CMakeFiles/builder_core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/bsoncxx/CMakeFiles/builder_core.dir/rule
@@ -1686,12 +1797,12 @@ examples/bsoncxx/CMakeFiles/builder_core.dir/clean:
 examples/bsoncxx/CMakeFiles/builder_list.dir/all: src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/bsoncxx/CMakeFiles/builder_list.dir/build.make examples/bsoncxx/CMakeFiles/builder_list.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/bsoncxx/CMakeFiles/builder_list.dir/build.make examples/bsoncxx/CMakeFiles/builder_list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=10 "Built target builder_list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target builder_list"
 .PHONY : examples/bsoncxx/CMakeFiles/builder_list.dir/all
 
 # Build rule for subdir invocation for target.
 examples/bsoncxx/CMakeFiles/builder_list.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/bsoncxx/CMakeFiles/builder_list.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/bsoncxx/CMakeFiles/builder_list.dir/rule
@@ -1764,7 +1875,7 @@ examples/bsoncxx/CMakeFiles/builder_stream.dir/clean:
 examples/bsoncxx/CMakeFiles/builder_stream_customization.dir/all: src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/bsoncxx/CMakeFiles/builder_stream_customization.dir/build.make examples/bsoncxx/CMakeFiles/builder_stream_customization.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/bsoncxx/CMakeFiles/builder_stream_customization.dir/build.make examples/bsoncxx/CMakeFiles/builder_stream_customization.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=11 "Built target builder_stream_customization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=12 "Built target builder_stream_customization"
 .PHONY : examples/bsoncxx/CMakeFiles/builder_stream_customization.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1790,12 +1901,12 @@ examples/bsoncxx/CMakeFiles/builder_stream_customization.dir/clean:
 examples/bsoncxx/CMakeFiles/decimal128.dir/all: src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/bsoncxx/CMakeFiles/decimal128.dir/build.make examples/bsoncxx/CMakeFiles/decimal128.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/bsoncxx/CMakeFiles/decimal128.dir/build.make examples/bsoncxx/CMakeFiles/decimal128.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=14 "Built target decimal128"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target decimal128"
 .PHONY : examples/bsoncxx/CMakeFiles/decimal128.dir/all
 
 # Build rule for subdir invocation for target.
 examples/bsoncxx/CMakeFiles/decimal128.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/bsoncxx/CMakeFiles/decimal128.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/bsoncxx/CMakeFiles/decimal128.dir/rule
@@ -1874,7 +1985,7 @@ examples/mongocxx/CMakeFiles/aggregate.dir/all: src/mongocxx/CMakeFiles/mongocxx
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/aggregate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/aggregate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/aggregate.dir/rule
@@ -1901,7 +2012,7 @@ examples/mongocxx/CMakeFiles/automatic_client_side_field_level_encryption.dir/al
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/automatic_client_side_field_level_encryption.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/automatic_client_side_field_level_encryption.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/automatic_client_side_field_level_encryption.dir/rule
@@ -1928,7 +2039,7 @@ examples/mongocxx/CMakeFiles/bulk_write.dir/all: src/mongocxx/CMakeFiles/mongocx
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/bulk_write.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/bulk_write.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/bulk_write.dir/rule
@@ -1950,12 +2061,12 @@ examples/mongocxx/CMakeFiles/causal_consistency.dir/all: src/bsoncxx/CMakeFiles/
 examples/mongocxx/CMakeFiles/causal_consistency.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/causal_consistency.dir/build.make examples/mongocxx/CMakeFiles/causal_consistency.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/causal_consistency.dir/build.make examples/mongocxx/CMakeFiles/causal_consistency.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=12 "Built target causal_consistency"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target causal_consistency"
 .PHONY : examples/mongocxx/CMakeFiles/causal_consistency.dir/all
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/causal_consistency.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/causal_consistency.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/causal_consistency.dir/rule
@@ -1977,12 +2088,12 @@ examples/mongocxx/CMakeFiles/change_streams.dir/all: src/bsoncxx/CMakeFiles/bson
 examples/mongocxx/CMakeFiles/change_streams.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/change_streams.dir/build.make examples/mongocxx/CMakeFiles/change_streams.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/change_streams.dir/build.make examples/mongocxx/CMakeFiles/change_streams.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target change_streams"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=13 "Built target change_streams"
 .PHONY : examples/mongocxx/CMakeFiles/change_streams.dir/all
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/change_streams.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/change_streams.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/change_streams.dir/rule
@@ -2009,7 +2120,7 @@ examples/mongocxx/CMakeFiles/client_session.dir/all: src/mongocxx/CMakeFiles/mon
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/client_session.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/client_session.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/client_session.dir/rule
@@ -2031,12 +2142,12 @@ examples/mongocxx/CMakeFiles/connect.dir/all: src/bsoncxx/CMakeFiles/bsoncxx_sha
 examples/mongocxx/CMakeFiles/connect.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/connect.dir/build.make examples/mongocxx/CMakeFiles/connect.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/connect.dir/build.make examples/mongocxx/CMakeFiles/connect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=13 "Built target connect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target connect"
 .PHONY : examples/mongocxx/CMakeFiles/connect.dir/all
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/connect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/connect.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/connect.dir/rule
@@ -2058,12 +2169,12 @@ examples/mongocxx/CMakeFiles/create.dir/all: src/bsoncxx/CMakeFiles/bsoncxx_shar
 examples/mongocxx/CMakeFiles/create.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/create.dir/build.make examples/mongocxx/CMakeFiles/create.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/create.dir/build.make examples/mongocxx/CMakeFiles/create.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target create"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=14 "Built target create"
 .PHONY : examples/mongocxx/CMakeFiles/create.dir/all
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/create.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/create.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/create.dir/rule
@@ -2090,7 +2201,7 @@ examples/mongocxx/CMakeFiles/document_validation.dir/all: src/mongocxx/CMakeFile
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/document_validation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/document_validation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/document_validation.dir/rule
@@ -2117,7 +2228,7 @@ examples/mongocxx/CMakeFiles/exception.dir/all: src/mongocxx/CMakeFiles/mongocxx
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/exception.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/exception.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/exception.dir/rule
@@ -2139,12 +2250,12 @@ examples/mongocxx/CMakeFiles/explicit_encryption.dir/all: src/bsoncxx/CMakeFiles
 examples/mongocxx/CMakeFiles/explicit_encryption.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/explicit_encryption.dir/build.make examples/mongocxx/CMakeFiles/explicit_encryption.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/explicit_encryption.dir/build.make examples/mongocxx/CMakeFiles/explicit_encryption.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=16 "Built target explicit_encryption"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target explicit_encryption"
 .PHONY : examples/mongocxx/CMakeFiles/explicit_encryption.dir/all
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/explicit_encryption.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/explicit_encryption.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/explicit_encryption.dir/rule
@@ -2166,12 +2277,12 @@ examples/mongocxx/CMakeFiles/explicit_encryption_auto_decryption.dir/all: src/bs
 examples/mongocxx/CMakeFiles/explicit_encryption_auto_decryption.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/explicit_encryption_auto_decryption.dir/build.make examples/mongocxx/CMakeFiles/explicit_encryption_auto_decryption.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/explicit_encryption_auto_decryption.dir/build.make examples/mongocxx/CMakeFiles/explicit_encryption_auto_decryption.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target explicit_encryption_auto_decryption"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=16 "Built target explicit_encryption_auto_decryption"
 .PHONY : examples/mongocxx/CMakeFiles/explicit_encryption_auto_decryption.dir/all
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/explicit_encryption_auto_decryption.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/explicit_encryption_auto_decryption.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/explicit_encryption_auto_decryption.dir/rule
@@ -2198,7 +2309,7 @@ examples/mongocxx/CMakeFiles/get_values_from_documents.dir/all: src/mongocxx/CMa
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/get_values_from_documents.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/get_values_from_documents.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/get_values_from_documents.dir/rule
@@ -2220,12 +2331,12 @@ examples/mongocxx/CMakeFiles/gridfs.dir/all: src/bsoncxx/CMakeFiles/bsoncxx_shar
 examples/mongocxx/CMakeFiles/gridfs.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/gridfs.dir/build.make examples/mongocxx/CMakeFiles/gridfs.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/gridfs.dir/build.make examples/mongocxx/CMakeFiles/gridfs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=18 "Built target gridfs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target gridfs"
 .PHONY : examples/mongocxx/CMakeFiles/gridfs.dir/all
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/gridfs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/gridfs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/gridfs.dir/rule
@@ -2247,12 +2358,12 @@ examples/mongocxx/CMakeFiles/index.dir/all: src/bsoncxx/CMakeFiles/bsoncxx_share
 examples/mongocxx/CMakeFiles/index.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/index.dir/build.make examples/mongocxx/CMakeFiles/index.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/index.dir/build.make examples/mongocxx/CMakeFiles/index.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target index"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=18 "Built target index"
 .PHONY : examples/mongocxx/CMakeFiles/index.dir/all
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/index.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/index.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/index.dir/rule
@@ -2274,12 +2385,12 @@ examples/mongocxx/CMakeFiles/inserted_id.dir/all: src/bsoncxx/CMakeFiles/bsoncxx
 examples/mongocxx/CMakeFiles/inserted_id.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/inserted_id.dir/build.make examples/mongocxx/CMakeFiles/inserted_id.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/inserted_id.dir/build.make examples/mongocxx/CMakeFiles/inserted_id.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=19 "Built target inserted_id"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target inserted_id"
 .PHONY : examples/mongocxx/CMakeFiles/inserted_id.dir/all
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/inserted_id.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/inserted_id.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/inserted_id.dir/rule
@@ -2301,12 +2412,12 @@ examples/mongocxx/CMakeFiles/instance_management.dir/all: src/bsoncxx/CMakeFiles
 examples/mongocxx/CMakeFiles/instance_management.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/instance_management.dir/build.make examples/mongocxx/CMakeFiles/instance_management.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/instance_management.dir/build.make examples/mongocxx/CMakeFiles/instance_management.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target instance_management"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=19 "Built target instance_management"
 .PHONY : examples/mongocxx/CMakeFiles/instance_management.dir/all
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/instance_management.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/instance_management.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/instance_management.dir/rule
@@ -2333,7 +2444,7 @@ examples/mongocxx/CMakeFiles/aggregation_examples.dir/all: src/mongocxx/CMakeFil
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/aggregation_examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/aggregation_examples.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/aggregation_examples.dir/rule
@@ -2355,12 +2466,12 @@ examples/mongocxx/CMakeFiles/runcommand_examples.dir/all: src/bsoncxx/CMakeFiles
 examples/mongocxx/CMakeFiles/runcommand_examples.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/runcommand_examples.dir/build.make examples/mongocxx/CMakeFiles/runcommand_examples.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/runcommand_examples.dir/build.make examples/mongocxx/CMakeFiles/runcommand_examples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=62 "Built target runcommand_examples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target runcommand_examples"
 .PHONY : examples/mongocxx/CMakeFiles/runcommand_examples.dir/all
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/runcommand_examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/runcommand_examples.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/runcommand_examples.dir/rule
@@ -2387,7 +2498,7 @@ examples/mongocxx/CMakeFiles/index_examples.dir/all: src/mongocxx/CMakeFiles/mon
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/index_examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/index_examples.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/index_examples.dir/rule
@@ -2414,7 +2525,7 @@ examples/mongocxx/CMakeFiles/documentation_examples.dir/all: src/mongocxx/CMakeF
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/documentation_examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/documentation_examples.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/documentation_examples.dir/rule
@@ -2441,7 +2552,7 @@ examples/mongocxx/CMakeFiles/usage_overview.dir/all: src/mongocxx/CMakeFiles/mon
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/usage_overview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/usage_overview.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/usage_overview.dir/rule
@@ -2468,7 +2579,7 @@ examples/mongocxx/CMakeFiles/query_projection.dir/all: src/mongocxx/CMakeFiles/m
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/query_projection.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/query_projection.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/query_projection.dir/rule
@@ -2490,12 +2601,12 @@ examples/mongocxx/CMakeFiles/query.dir/all: src/bsoncxx/CMakeFiles/bsoncxx_share
 examples/mongocxx/CMakeFiles/query.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/query.dir/build.make examples/mongocxx/CMakeFiles/query.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/query.dir/build.make examples/mongocxx/CMakeFiles/query.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=61 "Built target query"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target query"
 .PHONY : examples/mongocxx/CMakeFiles/query.dir/all
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/query.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/query.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/query.dir/rule
@@ -2517,12 +2628,12 @@ examples/mongocxx/CMakeFiles/remove.dir/all: src/bsoncxx/CMakeFiles/bsoncxx_shar
 examples/mongocxx/CMakeFiles/remove.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/remove.dir/build.make examples/mongocxx/CMakeFiles/remove.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/remove.dir/build.make examples/mongocxx/CMakeFiles/remove.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target remove"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=69 "Built target remove"
 .PHONY : examples/mongocxx/CMakeFiles/remove.dir/all
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/remove.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/remove.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/remove.dir/rule
@@ -2549,7 +2660,7 @@ examples/mongocxx/CMakeFiles/server_side_field_level_encryption_enforcement.dir/
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/server_side_field_level_encryption_enforcement.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/server_side_field_level_encryption_enforcement.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/server_side_field_level_encryption_enforcement.dir/rule
@@ -2571,12 +2682,12 @@ examples/mongocxx/CMakeFiles/tailable_cursor.dir/all: src/bsoncxx/CMakeFiles/bso
 examples/mongocxx/CMakeFiles/tailable_cursor.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/tailable_cursor.dir/build.make examples/mongocxx/CMakeFiles/tailable_cursor.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/tailable_cursor.dir/build.make examples/mongocxx/CMakeFiles/tailable_cursor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=63 "Built target tailable_cursor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=70 "Built target tailable_cursor"
 .PHONY : examples/mongocxx/CMakeFiles/tailable_cursor.dir/all
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/tailable_cursor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/tailable_cursor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/tailable_cursor.dir/rule
@@ -2598,12 +2709,12 @@ examples/mongocxx/CMakeFiles/tutorial.dir/all: src/bsoncxx/CMakeFiles/bsoncxx_sh
 examples/mongocxx/CMakeFiles/tutorial.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/tutorial.dir/build.make examples/mongocxx/CMakeFiles/tutorial.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/tutorial.dir/build.make examples/mongocxx/CMakeFiles/tutorial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target tutorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=98 "Built target tutorial"
 .PHONY : examples/mongocxx/CMakeFiles/tutorial.dir/all
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/tutorial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/tutorial.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/tutorial.dir/rule
@@ -2625,12 +2736,12 @@ examples/mongocxx/CMakeFiles/update.dir/all: src/bsoncxx/CMakeFiles/bsoncxx_shar
 examples/mongocxx/CMakeFiles/update.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/update.dir/build.make examples/mongocxx/CMakeFiles/update.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/update.dir/build.make examples/mongocxx/CMakeFiles/update.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=98 "Built target update"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target update"
 .PHONY : examples/mongocxx/CMakeFiles/update.dir/all
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/update.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/update.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/update.dir/rule
@@ -2657,7 +2768,7 @@ examples/mongocxx/CMakeFiles/view_or_value_variant.dir/all: src/mongocxx/CMakeFi
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/view_or_value_variant.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/view_or_value_variant.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/view_or_value_variant.dir/rule
@@ -2684,7 +2795,7 @@ examples/mongocxx/CMakeFiles/with_transaction.dir/all: src/mongocxx/CMakeFiles/m
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/with_transaction.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/with_transaction.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/with_transaction.dir/rule
@@ -2706,12 +2817,12 @@ examples/mongocxx/CMakeFiles/pool.dir/all: src/bsoncxx/CMakeFiles/bsoncxx_shared
 examples/mongocxx/CMakeFiles/pool.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/pool.dir/build.make examples/mongocxx/CMakeFiles/pool.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/mongocxx/CMakeFiles/pool.dir/build.make examples/mongocxx/CMakeFiles/pool.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num= "Built target pool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=68 "Built target pool"
 .PHONY : examples/mongocxx/CMakeFiles/pool.dir/all
 
 # Build rule for subdir invocation for target.
 examples/mongocxx/CMakeFiles/pool.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/mongocxx/CMakeFiles/pool.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : examples/mongocxx/CMakeFiles/pool.dir/rule
@@ -2730,7 +2841,9 @@ examples/mongocxx/CMakeFiles/pool.dir/clean:
 
 # All Build rule for target.
 benchmark/CMakeFiles/microbenchmarks.dir/all: src/bsoncxx/CMakeFiles/bsoncxx_shared.dir/all
+benchmark/CMakeFiles/microbenchmarks.dir/all: src/bsoncxx/CMakeFiles/bsoncxx_static.dir/all
 benchmark/CMakeFiles/microbenchmarks.dir/all: src/mongocxx/CMakeFiles/mongocxx_shared.dir/all
+benchmark/CMakeFiles/microbenchmarks.dir/all: src/mongocxx/CMakeFiles/mongocxx_static.dir/all
 	$(MAKE) $(MAKESILENT) -f benchmark/CMakeFiles/microbenchmarks.dir/build.make benchmark/CMakeFiles/microbenchmarks.dir/depend
 	$(MAKE) $(MAKESILENT) -f benchmark/CMakeFiles/microbenchmarks.dir/build.make benchmark/CMakeFiles/microbenchmarks.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles --progress-num=20 "Built target microbenchmarks"
@@ -2738,7 +2851,7 @@ benchmark/CMakeFiles/microbenchmarks.dir/all: src/mongocxx/CMakeFiles/mongocxx_s
 
 # Build rule for subdir invocation for target.
 benchmark/CMakeFiles/microbenchmarks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 39
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 benchmark/CMakeFiles/microbenchmarks.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/srokadia/open/mongo-cxx-driver-r3.10.1/build/CMakeFiles 0
 .PHONY : benchmark/CMakeFiles/microbenchmarks.dir/rule

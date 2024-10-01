@@ -79,6 +79,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/mongocxx/libmongocxx.so")
 endif()
 
+if(CMAKE_INSTALL_COMPONENT STREQUAL "dev" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/mongocxx/libmongocxx-static.a")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/mongocxx-3.10.1/mongocxx_targets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
@@ -111,5 +115,9 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE RENAME "libmongocxx.pc" FILES "/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/mongocxx/cmake/libmongocxx.pc")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE RENAME "libmongocxx-static.pc" FILES "/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/mongocxx/cmake/libmongocxx-static.pc")
 endif()
 
