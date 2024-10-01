@@ -6,5 +6,5 @@ CXX_DEFINES = -DBSONCXX_TESTING -DMONGO_CXX_DRIVER_COMPILING
 
 CXX_INCLUDES = -I/home/srokadia/open/mongo-cxx-driver-r3.10.1/src/bsoncxx/test/../.. -I/home/srokadia/open/mongo-cxx-driver-r3.10.1/src/bsoncxx/include/bsoncxx/v_noabi -I/home/srokadia/open/mongo-cxx-driver-r3.10.1/src/bsoncxx/include -I/home/srokadia/open/mongo-cxx-driver-r3.10.1/src/bsoncxx/lib/bsoncxx/v_noabi -I/home/srokadia/open/mongo-cxx-driver-r3.10.1/src/bsoncxx/lib -I/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx/lib/bsoncxx/v_noabi -I/home/srokadia/open/mongo-cxx-driver-r3.10.1/build/src/bsoncxx/lib -isystem /usr/include/libbson-1.0
 
-CXX_FLAGS = -O3 -DNDEBUG -std=c++11
+CXX_FLAGS = -O3 -DNDEBUG -std=c++20
 

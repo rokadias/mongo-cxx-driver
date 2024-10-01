@@ -67,7 +67,7 @@ include CMakeFiles/distcheck.dir/compiler_depend.make
 include CMakeFiles/distcheck.dir/progress.make
 
 CMakeFiles/distcheck:
-	/usr/bin/cmake -D CMAKE_MODULE_PATH=/home/srokadia/open/mongo-cxx-driver-r3.10.1/cmake/make_dist -D CMAKE_PREFIX_PATH= -D PACKAGE_PREFIX=mongo-cxx-driver-r3.10.1 -DCMAKE_CXX_STANDARD=11 -DBSONCXX_POLY_USE_MNMLSTC=OFF -DBSONCXX_POLY_USE_SYSTEM_MNMLSTC=OFF -DBSONCXX_POLY_USE_BOOST=OFF -DBSONCXX_POLY_USE_IMPLS=OFF -DBSONCXX_POLY_USE_STD=OFF -P /home/srokadia/open/mongo-cxx-driver-r3.10.1/cmake/make_dist/MakeDistCheck.cmake
+	/usr/bin/cmake -D CMAKE_MODULE_PATH=/home/srokadia/open/mongo-cxx-driver-r3.10.1/cmake/make_dist -D CMAKE_PREFIX_PATH= -D PACKAGE_PREFIX=mongo-cxx-driver-r3.10.1 -DCMAKE_CXX_STANDARD=20 -DBSONCXX_POLY_USE_MNMLSTC=OFF -DBSONCXX_POLY_USE_SYSTEM_MNMLSTC=OFF -DBSONCXX_POLY_USE_BOOST=OFF -DBSONCXX_POLY_USE_IMPLS=OFF -DBSONCXX_POLY_USE_STD=OFF -P /home/srokadia/open/mongo-cxx-driver-r3.10.1/cmake/make_dist/MakeDistCheck.cmake
 
 distcheck: CMakeFiles/distcheck
 distcheck: CMakeFiles/distcheck.dir/build.make

@@ -60,7 +60,7 @@ add_library(mongo::mongocxx_shared SHARED IMPORTED)
 
 set_target_properties(mongo::mongocxx_shared PROPERTIES
   INTERFACE_BSONCXX_ABI_TAG_MONGOC_LINK_TYPE "h"
-  INTERFACE_BSONCXX_ABI_TAG_POLYFILL_LIBRARY "i"
+  INTERFACE_BSONCXX_ABI_TAG_POLYFILL_LIBRARY "s"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/mongocxx/v_noabi;${_IMPORT_PREFIX}/include"
   INTERFACE_LINK_LIBRARIES "mongo::bsoncxx_shared"
 )
